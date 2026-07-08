@@ -1,7 +1,7 @@
 {
-  "name": "europarcs-maasduinen-reviewscherm",
+  "name": "ep-reviewscherm",
   "version": "1.0.0",
-  "description": "Zelfdraaiend TV-dashboard met reviewscores + Instagram voor EuroParcs Maasduinen",
+  "description": "Zelfdraaiend TV-dashboard met reviewscores voor EuroParcs-vakantieparken",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,7 +10,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "cheerio": "^1.0.0"
+    "express": "^4.19.2"
   }
 }

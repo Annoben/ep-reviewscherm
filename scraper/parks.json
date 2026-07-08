@@ -1,0 +1,66 @@
+{
+  "maasduinen": {
+    "name": "Maasduinen",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/droompark-maasduinen-belfeld4.nl.html",
+      "zoover": "https://www.zoover.nl/a/102231/europarcs-maasduinen",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_maasduinen.html"
+    }
+  },
+  "poortvanmaastricht": {
+    "name": "Poort van Maastricht",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/europarcs-poort-van-maastricht.nl.html",
+      "zoover": "https://www.zoover.nl/a/102551/europarcs-poort-van-maastricht",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_poort_van_maastricht.html"
+    }
+  },
+  "hogekempen": {
+    "name": "Hoge Kempen",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/be/europarcs-hoge-kempen.nl.html",
+      "zoover": "https://www.zoover.nl/a/479779/europarcs-hoge-kempen",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_hoge_kempen.html"
+    }
+  },
+  "kraaijenbergseplassen": {
+    "name": "Kraaijenbergse Plassen",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/europarcs-de-kraaijenbergse-plassen.nl.html",
+      "zoover": "https://www.zoover.nl/a/479659/europarcs-de-kraaijenbergse-plassen",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_de_kraaijenbergse_plassen.html"
+    }
+  },
+  "limburg": {
+    "name": "Limburg",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/europarcs-limburg.nl.html",
+      "zoover": "https://www.zoover.nl/a/102482/europarcs-limburg",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_limburg.html"
+    }
+  },
+  "cadzand": {
+    "name": "Cadzand",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/europarcs-cadzand-bad.nl.html",
+      "zoover": "https://www.zoover.nl/a/121028/europarcs-cadzand-bad",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_cadzand_.html"
+    }
+  },
+  "zeeuwseduinen": {
+    "name": "De Zeeuwse Duinen",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/europarcs-de-zeeuwse-duinen.nl.html",
+      "zoover": "https://www.zoover.nl/a/387923/europarcs-de-zeeuwse-duinen",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_de_zeeuwse_duinen.html"
+    }
+  },
+  "schoneveld": {
+    "name": "Schoneveld",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/europarcs-schoneveld.nl.html",
+      "zoover": "https://www.zoover.nl/a/103901/europarcs-schoneveld",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_schoneveld.html"
+    }
+  }
+}

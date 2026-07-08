@@ -14,7 +14,7 @@
 
 const express = require("express");
 const path = require("path");
-const cheerio = require("cheerio");
+const fs = require("fs");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -113,7 +113,7 @@ const PARKS = {
   },
 
   kraaijenbergseplassen: {
-    name: "Kraaijenbergse Plassen",
+    name: "De Kraaijenbergse Plassen",
     logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/16/De_Kraaijenbergse_Plassen%282%29.svg",
     urls: {
       booking: "https://www.booking.com/hotel/nl/europarcs-de-kraaijenbergse-plassen.html",
@@ -171,7 +171,7 @@ const PARKS = {
   },
 
   cadzand: {
-    name: "Cadzand",
+    name: "Cadzand-Bad",
     logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/20/99/EuroParcs_EuroParcs-Cadzand-Bad_CMYK%282%29.png",
     urls: {
       booking: "https://www.booking.com/hotel/nl/europarcs-cadzand.html",
@@ -262,7 +262,7 @@ let lastUpdated = null;
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36";
 
-// fetch met timeout, zodat één trage/hangende site nooit een hele ophaalronde blokkeert
+// fetch met timeout, zodat een trage Google-API nooit de ophaalronde blokkeert
 async function fetchT(url, opts = {}, ms = 12000) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), ms);
@@ -273,85 +273,9 @@ async function fetchT(url, opts = {}, ms = 12000) {
   }
 }
 
-async function getHtml(url) {
-  const res = await fetchT(url, { headers: { "User-Agent": UA, "Accept-Language": "nl-NL,nl;q=0.9" } });
-  if (!res.ok) throw new Error("HTTP " + res.status);
-  return cheerio.load(await res.text());
-}
-
-function numComma(text) {
-  const m = String(text).match(/(\d+[.,]\d+)/) || String(text).match(/\b(\d{1,2})\b/);
-  return m ? m[1].replace(".", ",") : null;
-}
-
-// ---------- Booking.com ----------
-async function fetchBooking(url) {
-  const $ = await getHtml(url);
-  const scoreEl = $('[data-testid="review-score-component"]').first().text()
-               || $('[class*="review-score"]').first().text();
-  const score = numComma(scoreEl);
-  let count = null;
-  const c = $('*:contains("beoordelingen")').filter((i, el) => /\d/.test($(el).text())).first().text();
-  const cm = c && c.match(/([\d.\u00a0]{2,})\s*beoordelingen/);
-  if (cm) count = cm[1].trim() + " beoordelingen";
-  return { score, count };
-}
-
-// ---------- Zoover ----------
-async function fetchZoover(url) {
-  const res = await fetchT(url, { headers: { "User-Agent": UA, "Accept-Language": "nl-NL,nl;q=0.9" } });
-  if (!res.ok) throw new Error("HTTP " + res.status);
-  const html = await res.text();
-  const $ = cheerio.load(html);
-  const text = $("body").text().replace(/\s+/g, " ");
-
-  const out = {};
-
-  // Zoover toont: "<score> Fantastisch Score uit <n> reviews"
-  // Vind het aantal reviews en de bijbehorende score los van elkaar.
-  const reviewsMatch = text.match(/Score uit\s*([\d.\u00a0]+)\s*reviews/i);
-  let reviewCount = null;
-  if (reviewsMatch) reviewCount = reviewsMatch[1].replace(/[.\u00a0]/g, "");
-
-  // De score staat vlak vóór het woord "Score uit ... reviews" of vóór een
-  // waardering als "Fantastisch/Zeer goed/Goed". Pak dat getal (0-10, evt. met decimaal).
-  let score = null;
-  const scoreCtx = text.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:Fenomenaal|Fantastisch|Uitstekend|Zeer goed|Goed|Prima|Voldoende)?\s*Score uit/i);
-  if (scoreCtx) score = scoreCtx[1];
-  // Fallback: "Deze accommodatie heeft een score van <n>"
-  if (!score) {
-    const alt = text.match(/score van\s*\*?\*?\s*(\d{1,2}(?:[.,]\d)?)/i);
-    if (alt) score = alt[1];
-  }
-
-  // Zoover geeft soms een heel getal ("8"); toon als "8,0" voor nette weergave.
-  if (score) {
-    score = score.replace(".", ",");
-    if (!score.includes(",")) score = score + ",0";
-    out.score = score;
-  }
-  if (reviewCount) out.count = reviewCount + " beoordelingen";
-  return out;
-}
-
-// ---------- BungalowSpecials ----------
-async function fetchSpecial(url) {
-  const $ = await getHtml(url);
-  const text = $("body").text().replace(/\s+/g, " ");
-  let score = null;
-  const sm = text.match(/(\d+[.,]\d+)\s*\/\s*10/);
-  if (sm) score = sm[1].replace(".", ",");
-  // aantal reviews/beoordelingen
-  let count = null;
-  const cm = text.match(/([\d.\u00a0]{1,6})\s*(?:beoordelingen|reviews|recensies)/i);
-  if (cm) count = cm[1].replace(/[.\u00a0]/g, "") + " beoordelingen";
-  const out = {};
-  if (score) out.score = score;
-  if (count) out.count = count;
-  return out;
-}
-
 // ---------- Google (Places API) ----------
+// Als enige bron haalt de server dit zélf live op — Google heeft een echte API.
+// Booking/Zoover/BungalowSpecials komen uit scores.json (zie hieronder).
 async function fetchGoogle(placeId) {
   const key = process.env.GOOGLE_API_KEY;
   if (!key || !placeId) return {};
@@ -372,31 +296,58 @@ async function fetchGoogle(placeId) {
 }
 
 // ---------- Eén park verversen ----------
+// ---------- scores.json inlezen (geschreven door de GitHub Actions-scraper) ----------
+// Booking, Zoover en BungalowSpecials worden NIET meer door deze server gescrapet
+// (die sites blokkeren servers). Een echte browser op GitHub Actions doet dat elk
+// uur en schrijft de uitkomst naar public/scores.json. Wij lezen dat hier in.
+function readScoresFile() {
+  try {
+    const raw = fs.readFileSync(path.join(__dirname, "public", "scores.json"), "utf8");
+    return JSON.parse(raw);
+  } catch (e) {
+    return null; // bestand bestaat nog niet (bijv. vóór de eerste Actions-run)
+  }
+}
+
+function applyScraped(parkKey) {
+  const park = PARKS[parkKey];
+  const scores = readScoresFile();
+  if (!scores || !scores.parks || !scores.parks[parkKey]) return;
+  for (const source of ["booking", "zoover", "special"]) {
+    const d = scores.parks[parkKey][source];
+    if (!d) continue;
+    const s = park.sites[source];
+    if (d.score) {
+      s.score = d.score;
+      const num = parseFloat(String(d.score).replace(",", "."));
+      if (!isNaN(num)) s.pct = Math.round((num / parseFloat(s.max)) * 100);
+    }
+    if (d.count) s.count = d.count + " beoordelingen";
+  }
+}
+
 async function refreshPark(parkKey) {
   const park = PARKS[parkKey];
   const placeId = process.env[park.googlePlaceIdEnv];
-  const jobs = [
-    ["booking", () => fetchBooking(park.urls.booking)],
-    ["zoover",  () => fetchZoover(park.urls.zoover)],
-    ["special", () => fetchSpecial(park.urls.special)],
-    ["google",  () => fetchGoogle(placeId)]
-  ];
-  for (const [key, fn] of jobs) {
-    try {
-      const d = await fn();
-      const s = park.sites[key];
-      for (const [f, v] of Object.entries(d)) {
-        if (v == null || v === "") continue;
-        s[f] = v;
-        if (f === "score") {
-          const num = parseFloat(String(v).replace(",", "."));
-          s.pct = Math.round((num / parseFloat(s.max)) * 100);
-        }
+
+  // 1) Booking/Zoover/BungalowSpecials uit scores.json
+  applyScraped(parkKey);
+
+  // 2) Google live via de officiële Places API
+  try {
+    const d = await fetchGoogle(placeId);
+    const s = park.sites.google;
+    for (const [f, v] of Object.entries(d)) {
+      if (v == null || v === "") continue;
+      s[f] = v;
+      if (f === "score") {
+        const num = parseFloat(String(v).replace(",", "."));
+        s.pct = Math.round((num / parseFloat(s.max)) * 100);
       }
-      console.log(`[ok]   ${parkKey}/${key}`, d);
-    } catch (e) {
-      console.warn(`[skip] ${parkKey}/${key}: ${e.message}`);
     }
+    console.log(`[ok]   ${parkKey}/google`, d);
+  } catch (e) {
+    console.warn(`[skip] ${parkKey}/google: ${e.message}`);
   }
 }
 
