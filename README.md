@@ -1,9 +1,10 @@
-# EuroParcs Maasduinen — Reviewscherm (zelfdraaiend)
+# EuroParcs Reviewscherm (zelfdraaiend) — meerdere parken
 
 Een TV-dashboard voor op kantoor. Toont de reviewscore + laatste reactie van
-**Booking.com, Zoover, Google en BungalowSpecials**, met het **officiële
-EuroParcs Maasduinen-logo**, icoon-knoppen om elke bron te tonen/verbergen, en
-**automatische verversing elk uur**.
+**Booking.com, Zoover, Google en BungalowSpecials** — voor **meerdere parken**
+(nu Maasduinen en Poort van Maastricht). Bovenin schakel je met logo-knoppen
+tussen de parken. Met de **officiële EuroParcs-logo's**, icoon-knoppen om elke
+bron te tonen/verbergen, en **automatische verversing elk uur**.
 
 Zodra je dit host, draait alles vanzelf — geen pc die aan moet blijven, geen
 handmatig bijwerken.
@@ -61,7 +62,8 @@ bekende cijfers; Booking/Zoover/BungalowSpecials worden alsnog live geprobeerd.
 4. Zoek het **place_id** van EuroParcs Maasduinen op via de Place ID Finder:
    https://developers.google.com/maps/documentation/places/web-service/place-id
    (zoek "EuroParcs Maasduinen Belfeld" → kopieer de place_id).
-5. Zet in je env: `GOOGLE_API_KEY=...` en `GOOGLE_PLACE_ID=...`
+5. Zet in je env: `GOOGLE_API_KEY=...` (één key voor beide parken) plus
+   `GOOGLE_PLACE_ID_MAASDUINEN=...` en `GOOGLE_PLACE_ID_POORTVANMAASTRICHT=...`
 
 De Places API geeft rating, aantal reviews én de nieuwste review-tekst terug —
 die verschijnt automatisch als "laatste reactie" op de Google-tegel.
@@ -82,3 +84,10 @@ uur-refresh worden ze door live data vervangen zodra de betreffende bron werkt.
   tijd blijft de laatste waarde staan (nooit leeg overschreven).
 - BungalowSpecials deelt dezelfde reviewpool als de DE/BE-varianten — niet dubbel
   toevoegen.
+
+## Een park toevoegen
+Open `server.js` en kopieer in het `PARKS`-object een bestaand parkblok. Pas aan:
+de `name`, de `logo`-URL, de drie scrape-URL's (booking/zoover/special), en
+`googlePlaceIdEnv` (de naam van de env-variabele met het Google place_id van dat
+park). Voeg die env-variabele daarna bij Render toe. De park-schakelaar en tegels
+verschijnen dan vanzelf.
