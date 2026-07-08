@@ -88,8 +88,19 @@ let lastUpdated = null;
 
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36";
 
+// fetch met timeout, zodat één trage/hangende site nooit een hele ophaalronde blokkeert
+async function fetchT(url, opts = {}, ms = 12000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), ms);
+  try {
+    return await fetch(url, { ...opts, signal: ctrl.signal });
+  } finally {
+    clearTimeout(t);
+  }
+}
+
 async function getHtml(url) {
-  const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "nl-NL,nl;q=0.9" } });
+  const res = await fetchT(url, { headers: { "User-Agent": UA, "Accept-Language": "nl-NL,nl;q=0.9" } });
   if (!res.ok) throw new Error("HTTP " + res.status);
   return cheerio.load(await res.text());
 }
@@ -135,7 +146,7 @@ async function fetchGoogle(placeId) {
   const key = process.env.GOOGLE_API_KEY;
   if (!key || !placeId) return {};
   const url = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=rating,user_ratings_total,reviews&language=nl&key=${key}`;
-  const r = await (await fetch(url)).json();
+  const r = await (await fetchT(url)).json();
   const res = r.result || {};
   const out = {};
   if (res.rating != null) out.score = String(res.rating).replace(".", ",");
@@ -201,8 +212,17 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/api/data", (_req, res) => res.json(buildPayload()));
 app.get("/healthz", (_req, res) => res.send("ok"));
 
+// De server gaat direct "live" (poort open) met de laatst bekende cijfers.
+// Het ophalen van verse data gebeurt daarna op de achtergrond en mag de
+// opstart nooit blokkeren — anders kan de host (Render) een deploy-timeout geven.
 app.listen(PORT, () => {
   console.log(`EuroParcs reviewscherm draait op poort ${PORT}`);
-  refresh();
-  setInterval(refresh, REFRESH_MS);
+  // eerste refresh los in de achtergrond, fouten volledig afgevangen
+  setTimeout(() => {
+    refresh().catch(e => console.warn("[refresh] eerste ophaalronde mislukt:", e.message));
+  }, 100);
+  // en daarna elk uur
+  setInterval(() => {
+    refresh().catch(e => console.warn("[refresh] mislukt:", e.message));
+  }, REFRESH_MS);
 });
