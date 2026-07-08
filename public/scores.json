@@ -1,5 +1,117 @@
 {
-  "updated": null,
-  "note": "Dit bestand wordt elk uur automatisch bijgewerkt door de GitHub Actions-scraper. Vóór de eerste run gebruikt de server de fallback-waarden uit server.js.",
-  "parks": {}
+  "updated": "2026-07-08T12:17:39.538Z",
+  "parks": {
+    "maasduinen": {
+      "booking": {
+        "score": "8,3",
+        "count": "550"
+      },
+      "zoover": {
+        "score": "8,6",
+        "count": "183"
+      },
+      "special": {
+        "score": "7,9",
+        "count": "133"
+      }
+    },
+    "poortvanmaastricht": {
+      "booking": {
+        "score": "8,3",
+        "count": "330"
+      },
+      "zoover": {
+        "score": "8,0",
+        "count": "36"
+      },
+      "special": {
+        "score": "8,3",
+        "count": "44"
+      }
+    },
+    "hogekempen": {
+      "booking": {
+        "score": "8,6",
+        "count": "1018"
+      },
+      "zoover": {
+        "score": "9,0",
+        "count": "119"
+      },
+      "special": {
+        "score": "8,0",
+        "count": "40"
+      }
+    },
+    "kraaijenbergseplassen": {
+      "booking": {
+        "score": "8,1",
+        "count": "574"
+      },
+      "zoover": {
+        "score": "8,9",
+        "count": "22"
+      },
+      "special": {
+        "score": "7,8",
+        "count": "131"
+      }
+    },
+    "limburg": {
+      "booking": {
+        "score": "8,2",
+        "count": "673"
+      },
+      "zoover": {
+        "score": "9,0",
+        "count": "36"
+      },
+      "special": {
+        "score": "7,8",
+        "count": "384"
+      }
+    },
+    "cadzand": {
+      "booking": {
+        "score": null,
+        "count": null
+      },
+      "zoover": {
+        "score": "3,9",
+        "count": "14"
+      },
+      "special": {
+        "score": "8,2",
+        "count": "4"
+      }
+    },
+    "zeeuwseduinen": {
+      "booking": {
+        "score": "8,8",
+        "count": "10"
+      },
+      "zoover": {
+        "score": "9,0",
+        "count": "1"
+      },
+      "special": {
+        "score": "8,5",
+        "count": "1"
+      }
+    },
+    "schoneveld": {
+      "booking": {
+        "score": null,
+        "count": null
+      },
+      "zoover": {
+        "score": "5,0",
+        "count": "14"
+      },
+      "special": {
+        "score": "8,2",
+        "count": "76"
+      }
+    }
+  }
 }
