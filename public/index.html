@@ -28,6 +28,10 @@
   header{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;}
   .brand{display:flex;align-items:center;gap:16px;}
   .title-block .eyebrow{text-transform:uppercase;letter-spacing:.26em;font-size:11px;color:var(--ep-gold);font-weight:700;}
+  .brandmark-row{display:flex;align-items:center;gap:13px;}
+  .ep-mark{width:46px;height:46px;flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+  .ep-mark-img{max-width:100%;max-height:100%;object-fit:contain;display:block;}
+  .eyebrow-lg{font-size:17px;letter-spacing:.20em;}
   .title-block h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.01em;}
   .title-block .eyebrow-title{margin:0;font-size:26px;font-weight:800;letter-spacing:-.01em;color:var(--ep-ink);}
 
@@ -52,19 +56,14 @@
 
   .toggle-row{display:flex;gap:12px;margin-bottom:22px;flex-wrap:wrap;align-items:center;}
   .toggle-hint{font-size:12px;color:var(--ep-ink-soft);margin-right:4px;}
-  .toggle-btn{display:flex;align-items:center;gap:10px;padding:8px 16px 8px 9px;border-radius:999px;
-    border:1.5px solid var(--ep-line);background:#fff;cursor:pointer;transition:all .18s ease;
+  .toggle-btn{display:flex;align-items:center;justify-content:center;padding:9px;border-radius:14px;
+    border:2px solid var(--ep-line);background:#fff;cursor:pointer;transition:all .18s ease;
     box-shadow:0 2px 6px rgba(35,49,42,.05);}
   .toggle-btn:hover{transform:translateY(-1px);box-shadow:0 5px 14px rgba(35,49,42,.10);}
-  .toggle-ic{width:32px;height:32px;border-radius:9px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#fff;}
-  .toggle-ic svg{width:19px;height:19px;display:block;}
-  .toggle-name{font-weight:700;font-size:13px;}
-  .toggle-state{width:17px;height:17px;border-radius:50%;border:2px solid var(--ep-green);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-  .toggle-state svg{width:10px;height:10px;color:var(--ep-green);}
-  .toggle-btn.off{opacity:.5;filter:grayscale(.7);}
-  .toggle-btn.off .toggle-state{border-color:var(--ep-ink-soft);}
-  .toggle-btn.off .toggle-state svg{display:none;}
-  .toggle-btn.icon-only{padding:8px 12px 8px 9px;gap:8px;}
+  .toggle-btn.active{border-color:var(--ep-green);background:#F3F7F2;box-shadow:0 6px 18px rgba(60,110,71,.15);}
+  .toggle-ic{width:38px;height:38px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#fff;}
+  .toggle-ic svg{width:28px;height:28px;display:block;}
+  .toggle-btn.off{opacity:.45;filter:grayscale(.75);}
 
   .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:start;}
   @media(max-width:1500px){.grid{grid-template-columns:repeat(2,1fr);}}
@@ -105,7 +104,25 @@
 <header>
   <div class="brand">
     <div class="title-block">
-      <div class="eyebrow" id="parkTitle">Gastbeoordelingen dashboard</div>
+      <div class="brandmark-row">
+        <span class="ep-mark" aria-hidden="true">
+          <img src="https://europarcsmakelaardij.nl/wp-content/uploads/2025/11/EP-roos-logo-819x1024.png"
+               alt="EuroParcs" class="ep-mark-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+          <svg viewBox="0 0 48 48" width="100%" height="100%" style="display:none;">
+            <circle cx="24" cy="24" r="24" fill="#fff"/>
+            <g fill="#1f7ec4">
+              <path d="M23.2 25c-.2 5 .2 9 .8 13h0c.6-4 1-8 .8-13-.5-.4-1.1-.4-1.6 0z"/>
+              <path d="M24 9c-2.4 2.8-3.6 6-3.9 9.3-.2 2.4.3 4.4 1.5 6 .7.9 1.6 1.5 2.4 1.8.8-.3 1.7-.9 2.4-1.8 1.2-1.6 1.7-3.6 1.5-6C27.6 15 26.4 11.8 24 9z"/>
+              <path d="M20.4 12.2c-1.8 2.4-2.7 5-2.9 7.6-.14 1.9.2 3.5 1 4.9.9-2 1.2-4.3 1.1-6.6-.08-2 .1-3.9.8-5.9z"/>
+              <path d="M27.6 12.2c1.8 2.4 2.7 5 2.9 7.6.14 1.9-.2 3.5-1 4.9-.9-2-1.2-4.3-1.1-6.6.08-2-.1-3.9-.8-5.9z"/>
+              <path d="M21 27c-2.8-2.4-6-3.6-9.2-3.4 2 4 5 6.8 8.8 8.2.6-1.6.7-3.2.4-4.8z"/>
+              <path d="M27 27c2.8-2.4 6-3.6 9.2-3.4-2 4-5 6.8-8.8 8.2-.6-1.6-.7-3.2-.4-4.8z"/>
+            </g>
+          </svg>
+        </span>
+        <div class="eyebrow eyebrow-lg" id="parkTitle">Gastbeoordelingen dashboard</div>
+      </div>
     </div>
   </div>
   <div class="clock-block">
@@ -157,10 +174,18 @@ function reviewCardHTML(id,s){
     </div>
     <div class="verdict">${s.verdict||''}</div>
     <div class="score-wrap"><span class="score">${s.score}</span><span class="score-max">/ ${s.max}</span></div>
-    <div class="count">${s.count||''}</div>
+    <div class="count">${/\d/.test(s.count||'') ? s.count : ''}</div>
     <div class="bar"><span data-pct="${s.pct||0}"></span></div>
     <div class="latest-tag">Laatste reactie</div>
-    <div class="quote">${s.quote||''}<div class="quote-meta"><b>${s.author||''}</b><span>${s.when||''}</span></div></div>`;
+    <div class="quote">${s.quote||''}<div class="quote-meta"><b>${isRealName(s.author)?s.author:''}</b><span>${(s.when&&s.when!=='Recent')?s.when:''}</span></div></div>`;
+}
+
+// Toon alleen een echte reviewer-naam of nette omschrijving; verberg
+// site-placeholders zoals "Google-review", "Zoover-review", "BungalowSpecials".
+function isRealName(a){
+  if(!a) return false;
+  const generic=/^(google-?review|zoover-?review|bungalowspecials|booking\.?com|google|zoover)$/i;
+  return !generic.test(a.trim());
 }
 
 const leafSvg='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>';
@@ -205,9 +230,14 @@ function renderPark(){
     grid.appendChild(card);
 
     const btn=document.createElement('button');
-    btn.className='toggle-btn icon-only'; btn.dataset.target='card-'+id; btn.title=s.name;
-    btn.innerHTML=`<span class="toggle-ic" style="background:${ACCENTS[id]}">${ICONS[id]}</span><span class="toggle-state">${checkSvg}</span>`;
-    btn.addEventListener('click',()=>{btn.classList.toggle('off');document.getElementById(btn.dataset.target).classList.toggle('hidden');updateCount();});
+    btn.className='toggle-btn active'; btn.dataset.target='card-'+id; btn.title=s.name;
+    btn.innerHTML=`<span class="toggle-ic" style="background:${ACCENTS[id]}">${ICONS[id]}</span>`;
+    btn.addEventListener('click',()=>{
+      const on=btn.classList.toggle('active');
+      btn.classList.toggle('off',!on);
+      document.getElementById(btn.dataset.target).classList.toggle('hidden',!on);
+      updateCount();
+    });
     toggleRow.appendChild(btn);
   });
   updateCount();
