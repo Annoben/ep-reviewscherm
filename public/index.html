@@ -29,6 +29,7 @@
   .brand{display:flex;align-items:center;gap:16px;}
   .title-block .eyebrow{text-transform:uppercase;letter-spacing:.26em;font-size:11px;color:var(--ep-gold);font-weight:700;}
   .title-block h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.01em;}
+  .title-block .eyebrow-title{margin:0;font-size:26px;font-weight:800;letter-spacing:-.01em;color:var(--ep-ink);}
 
   .clock-block{text-align:right;}
   .clock{font-size:28px;font-weight:800;color:var(--ep-green);font-variant-numeric:tabular-nums;}
@@ -63,6 +64,7 @@
   .toggle-btn.off{opacity:.5;filter:grayscale(.7);}
   .toggle-btn.off .toggle-state{border-color:var(--ep-ink-soft);}
   .toggle-btn.off .toggle-state svg{display:none;}
+  .toggle-btn.icon-only{padding:8px 12px 8px 9px;gap:8px;}
 
   .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:start;}
   @media(max-width:1500px){.grid{grid-template-columns:repeat(2,1fr);}}
@@ -103,8 +105,7 @@
 <header>
   <div class="brand">
     <div class="title-block">
-      <div class="eyebrow">Gastbeoordelingen</div>
-      <h1 id="parkTitle">Dashboard</h1>
+      <div class="eyebrow" id="parkTitle">Gastbeoordelingen dashboard</div>
     </div>
   </div>
   <div class="clock-block">
@@ -113,7 +114,7 @@
   </div>
 </header>
 
-<div class="park-switch" id="parkSwitch"></div>
+<div class="park-switch" id="parkSwitch"><span class="toggle-hint">Kies park:</span></div>
 
 <div class="toggle-row" id="toggleRow"><span class="toggle-hint">Toon / verberg:</span></div>
 <div class="grid" id="grid"></div>
@@ -166,7 +167,7 @@ const leafSvg='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" strok
 
 /* Bouw de park-schakelaar (logo-knoppen) */
 function buildParkSwitch(){
-  parkSwitch.innerHTML='';
+  parkSwitch.innerHTML='<span class="toggle-hint">Kies park:</span>';
   Object.entries(DATA.parks).forEach(([key,park])=>{
     const btn=document.createElement('button');
     btn.className='park-btn'+(key===currentPark?' active':'');
@@ -187,7 +188,7 @@ function renderPark(){
   const park=DATA.parks[currentPark];
 
   // titel + footer bijwerken
-  document.getElementById('parkTitle').textContent='Dashboard';
+  document.getElementById('parkTitle').textContent='Gastbeoordelingen dashboard';
   document.getElementById('footerBrand').textContent='EuroParcs '+park.name+' · gastbeoordelingen dashboard · vibed by Hoogvlieger';
 
   // schakelaar-highlight bijwerken
@@ -204,8 +205,8 @@ function renderPark(){
     grid.appendChild(card);
 
     const btn=document.createElement('button');
-    btn.className='toggle-btn'; btn.dataset.target='card-'+id;
-    btn.innerHTML=`<span class="toggle-ic" style="background:${ACCENTS[id]}">${ICONS[id]}</span><span class="toggle-name">${s.name}</span><span class="toggle-state">${checkSvg}</span>`;
+    btn.className='toggle-btn icon-only'; btn.dataset.target='card-'+id; btn.title=s.name;
+    btn.innerHTML=`<span class="toggle-ic" style="background:${ACCENTS[id]}">${ICONS[id]}</span><span class="toggle-state">${checkSvg}</span>`;
     btn.addEventListener('click',()=>{btn.classList.toggle('off');document.getElementById(btn.dataset.target).classList.toggle('hidden');updateCount();});
     toggleRow.appendChild(btn);
   });
