@@ -27,18 +27,6 @@
 
   header{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;}
   .brand{display:flex;align-items:center;gap:16px;}
-  .logo-box{
-    height:60px;display:flex;align-items:center;
-    background:#fff;border:1px solid var(--ep-line);border-radius:16px;padding:8px 18px;
-    box-shadow:0 6px 18px rgba(35,49,42,.07);
-  }
-  .logo-box img{height:42px;display:block;}
-  .logo-fallback{display:flex;align-items:center;gap:11px;}
-  .logo-fallback .leaf{width:40px;height:40px;border-radius:50%;background:var(--ep-green);
-    display:flex;align-items:center;justify-content:center;}
-  .logo-fallback .wm{line-height:1;}
-  .logo-fallback .wm b{display:block;font-size:19px;font-weight:800;color:var(--ep-green);letter-spacing:.5px;}
-  .logo-fallback .wm span{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--ep-gold);font-weight:700;}
   .title-block .eyebrow{text-transform:uppercase;letter-spacing:.26em;font-size:11px;color:var(--ep-gold);font-weight:700;}
   .title-block h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.01em;}
 
@@ -114,17 +102,9 @@
 
 <header>
   <div class="brand">
-    <div class="logo-box" id="logoBox">
-      <img id="parkLogo" src="" alt="EuroParcs"
-           onerror="this.style.display='none';document.getElementById('logoFallback').style.display='flex';">
-      <div class="logo-fallback" id="logoFallback" style="display:none;">
-        <span class="leaf"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></span>
-        <span class="wm"><b>EuroParcs</b><span id="fallbackParkName">Maasduinen</span></span>
-      </div>
-    </div>
     <div class="title-block">
       <div class="eyebrow">Gastbeoordelingen</div>
-      <h1 id="parkTitle">Reviewscherm</h1>
+      <h1 id="parkTitle">Dashboard</h1>
     </div>
   </div>
   <div class="clock-block">
@@ -141,7 +121,7 @@
 <footer>
   <div class="footer-brand">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ep-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>
-    <span id="footerBrand">EuroParcs · intern reviewoverzicht</span>
+    <span id="footerBrand">EuroParcs · gastbeoordelingen dashboard · vibed by Hoogvlieger</span>
   </div>
   <div id="lastUpdated">Laatst bijgewerkt: —</div>
 </footer>
@@ -202,18 +182,13 @@ function buildParkSwitch(){
   });
 }
 
-/* Render het actieve park: kop, logo, tegels */
+/* Render het actieve park: kop, tegels */
 function renderPark(){
   const park=DATA.parks[currentPark];
 
-  // logo + titel in de header
-  const logoImg=document.getElementById('parkLogo');
-  const fallback=document.getElementById('logoFallback');
-  if(park.logo){ logoImg.style.display=''; logoImg.src=park.logo; fallback.style.display='none'; }
-  else { logoImg.style.display='none'; fallback.style.display='flex'; }
-  document.getElementById('fallbackParkName').textContent=park.name;
-  document.getElementById('parkTitle').textContent='Reviewscherm';
-  document.getElementById('footerBrand').textContent='EuroParcs '+park.name+' · intern reviewoverzicht';
+  // titel + footer bijwerken
+  document.getElementById('parkTitle').textContent='Dashboard';
+  document.getElementById('footerBrand').textContent='EuroParcs '+park.name+' · gastbeoordelingen dashboard · vibed by Hoogvlieger';
 
   // schakelaar-highlight bijwerken
   document.querySelectorAll('.park-btn').forEach(b=>b.classList.toggle('active',b.dataset.park===currentPark));
