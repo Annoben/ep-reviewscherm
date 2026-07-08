@@ -47,7 +47,7 @@ const PARKS = {
         verdict: "Goed",
         quote: "Een terugkerende gast noemt het park voor de derde keer geweldig: goed uitgeruste huisjes middenin de natuur en een fijne uitvalsbasis om de omgeving te verkennen.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "133 beoordelingen",
+      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "\u201CWundersch\u00F6ne Lage in einem reizvollen Naturgebiet.\u201D Gast prees vooral de rust en de historische dorpjes langs de Maas, ideaal om te wandelen en te fietsen.",
         author: "BungalowSpecials", when: "Recent" }
@@ -76,7 +76,7 @@ const PARKS = {
         verdict: "Goed",
         quote: "Mooie, moderne huisjes met vriendelijk personeel bij de receptie; ideale uitvalsbasis om Maastricht en Valkenburg te verkennen.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "8,3", max: "10", pct: 83, count: "133 beoordelingen",
+      special: { name: "BungalowSpecials", score: "8,3", max: "10", pct: 83, count: "",
         verdict: "Zeer goed",
         quote: "Rustig en gezinsvriendelijk park in het Limburgse heuvellandschap; de bourgondische gezelligheid van Maastricht ligt om de hoek.",
         author: "BungalowSpecials", when: "Recent" }
@@ -105,7 +105,7 @@ const PARKS = {
         verdict: "Goed",
         quote: "Prachtige, groene omgeving net over de grens bij Maastricht; fijne uitvalsbasis om te wandelen en fietsen in de Hoge Kempen.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "reizigersbeoordelingen",
+      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Gezellig vakantiepark met vernieuwde accommodaties; ideale uitvalsbasis voor uitstapjes naar Genk, Hasselt en Maastricht.",
         author: "BungalowSpecials", when: "Recent" }
@@ -114,7 +114,7 @@ const PARKS = {
 
   kraaijenbergseplassen: {
     name: "Kraaijenbergse Plassen",
-    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/54/Kraaijenbergse_Plassen%282%29.svg",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/16/De_Kraaijenbergse_Plassen%282%29.svg",
     urls: {
       booking: "https://www.booking.com/hotel/nl/europarcs-de-kraaijenbergse-plassen.html",
       zoover:  "https://www.zoover.nl/a/479659/europarcs-de-kraaijenbergse-plassen",
@@ -122,11 +122,11 @@ const PARKS = {
     },
     googlePlaceIdEnv: "GOOGLE_PLACE_ID_KRAAIJENBERGSEPLASSEN",
     sites: {
-      booking: { name: "Booking.com", score: "8,0", max: "10", pct: 80, count: "beoordelingen",
+      booking: { name: "Booking.com", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Goed",
         quote: "Waterrijk vakantiepark aan de Kraaijenbergse Plassen; fijn voor watersport en gezinnen, met ruime, moderne accommodaties.",
         author: "Geverifieerde gast", when: "Recent" },
-      zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "beoordelingen",
+      zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Goed",
         quote: "Mooi gelegen aan het water; rustige ligging en prettige, verzorgde accommodaties.",
         author: "Zoover-review", when: "Recent" },
@@ -134,7 +134,7 @@ const PARKS = {
         verdict: "Goed",
         quote: "Ruim opgezet waterpark met een fijne ligging aan de plassen; goede uitvalsbasis in Noord-Brabant.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "8,0", max: "10", pct: 80, count: "reizigersbeoordelingen",
+      special: { name: "BungalowSpecials", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Goed",
         quote: "Watervakantiepark met comfortabele accommodaties; ideaal voor een actieve of juist rustige vakantie aan het water.",
         author: "BungalowSpecials", when: "Recent" }
@@ -155,15 +155,15 @@ const PARKS = {
         verdict: "Prima",
         quote: "Rustig gelegen park in Susteren; nette accommodaties en een goede uitvalsbasis om Limburg te verkennen.",
         author: "Geverifieerde gast", when: "Recent" },
-      zoover: { name: "Zoover", score: "7,9", max: "10", pct: 79, count: "beoordelingen",
+      zoover: { name: "Zoover", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Prettig, overzichtelijk park in het Limburgse; fijne rust en ruimte.",
         author: "Zoover-review", when: "Recent" },
-      google: { name: "Google", score: "4,0", max: "5", pct: 80, count: "beoordelingen",
+      google: { name: "Google", score: "4,0", max: "5", pct: 80, count: "",
         verdict: "Goed",
         quote: "Fijne ligging in het Limburgse landschap; goede uitvalsbasis richting Roermond, Maasmechelen en de Maasplassen.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "reizigersbeoordelingen",
+      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Comfortabel vakantiepark in Susteren; centraal gelegen voor uitstapjes in Limburg en net over de grens.",
         author: "BungalowSpecials", when: "Recent" }
@@ -172,11 +172,11 @@ const PARKS = {
 
   cadzand: {
     name: "Cadzand",
-    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/93/Cadzand%282%29.svg",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/20/99/EuroParcs_EuroParcs-Cadzand-Bad_CMYK%282%29.png",
     urls: {
       booking: "https://www.booking.com/hotel/nl/europarcs-cadzand.html",
       zoover:  "https://www.zoover.nl/nederland/zeeland/cadzand/europarcs-cadzand/vakantiepark",
-      special: "https://www.bungalowspecials.nl/bungalows/europarcs_cadzand.html"
+      special: "https://www.bungalowspecials.nl/bungalows/europarcs_cadzand_.html"
     },
     googlePlaceIdEnv: "GOOGLE_PLACE_ID_CADZAND",
     sites: {
@@ -184,15 +184,15 @@ const PARKS = {
         verdict: "Goed",
         quote: "Nieuw kustpark vlak bij het brede strand van Cadzand-Bad; moderne, goed uitgeruste appartementen met zeezicht.",
         author: "Geverifieerde gast", when: "Recent" },
-      zoover: { name: "Zoover", score: "7,8", max: "10", pct: 78, count: "beoordelingen",
+      zoover: { name: "Zoover", score: "7,8", max: "10", pct: 78, count: "",
         verdict: "Goed",
         quote: "Rustige ligging vlak bij zee; fijne, verzorgde accommodaties aan de Zeeuwse kust.",
         author: "Zoover-review", when: "Recent" },
-      google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "beoordelingen",
+      google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "",
         verdict: "Goed",
         quote: "Op loopafstand van een van de breedste stranden van Nederland; ideaal voor rust, strand en culinair genieten.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "7,8", max: "10", pct: 78, count: "reizigersbeoordelingen",
+      special: { name: "BungalowSpecials", score: "7,8", max: "10", pct: 78, count: "",
         verdict: "Goed",
         quote: "Kustpark bij Cadzand met moderne appartementen; perfecte plek voor een strandvakantie in Zeeland.",
         author: "BungalowSpecials", when: "Recent" }
@@ -201,7 +201,7 @@ const PARKS = {
 
   zeeuwseduinen: {
     name: "De Zeeuwse Duinen",
-    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/94/De_Zeeuwse_Duinen%282%29.svg",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/34/De_Zeeuwse_Duinen%282%29.svg",
     urls: {
       booking: "https://www.booking.com/hotel/nl/europarcs-de-zeeuwse-duinen.html",
       zoover:  "https://www.zoover.nl/nederland/zeeland/westkapelle/europarcs-de-zeeuwse-duinen/vakantiepark",
@@ -213,15 +213,15 @@ const PARKS = {
         verdict: "Zeer goed",
         quote: "Klein, rustig park in Westkapelle op minder dan 500 meter van het strand; moderne accommodaties in het duinlandschap.",
         author: "Geverifieerde gast", when: "Recent" },
-      zoover: { name: "Zoover", score: "8,4", max: "10", pct: 84, count: "beoordelingen",
+      zoover: { name: "Zoover", score: "8,4", max: "10", pct: 84, count: "",
         verdict: "Zeer goed",
         quote: "Kleinschalig en rustig; heerlijk dicht bij het strand van Walcheren, een oase van rust.",
         author: "Zoover-review", when: "Recent" },
-      google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "beoordelingen",
+      google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "",
         verdict: "Goed",
         quote: "Rustige ligging aan de tip van Walcheren, dicht bij Westkapelle, Zoutelande en Vlissingen.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "8,4", max: "10", pct: 84, count: "reizigersbeoordelingen",
+      special: { name: "BungalowSpecials", score: "8,4", max: "10", pct: 84, count: "",
         verdict: "Zeer goed",
         quote: "Kleinschalig duinpark vlak bij zee; ideaal voor wie rust en ruimte zoekt aan de Zeeuwse kust.",
         author: "BungalowSpecials", when: "Recent" }
@@ -230,7 +230,7 @@ const PARKS = {
 
   schoneveld: {
     name: "Schoneveld",
-    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/55/Schoneveld%282%29.svg",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/22/12/Schoneveld%282%29.svg",
     urls: {
       booking: "https://www.booking.com/hotel/nl/droompark-schoneveld.html",
       zoover:  "https://www.zoover.nl/nederland/zeeland/breskens/europarcs-schoneveld/vakantiepark",
@@ -242,15 +242,15 @@ const PARKS = {
         verdict: "Goed",
         quote: "Kustpark bij Breskens op loopafstand van strand en duinen; luxe accommodaties, binnenzwembad en restaurant.",
         author: "Geverifieerde gast", when: "Recent" },
-      zoover: { name: "Zoover", score: "7,7", max: "10", pct: 77, count: "beoordelingen",
+      zoover: { name: "Zoover", score: "7,7", max: "10", pct: 77, count: "",
         verdict: "Goed",
         quote: "Fijne ligging bij het strand van Breskens; ruime accommodaties en volop voorzieningen voor gezinnen.",
         author: "Zoover-review", when: "Recent" },
-      google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "beoordelingen",
+      google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "",
         verdict: "Goed",
         quote: "Vlak bij zee en de haven van Breskens; fijne uitvalsbasis met Brugge en Knokke op korte afstand.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "7,7", max: "10", pct: 77, count: "reizigersbeoordelingen",
+      special: { name: "BungalowSpecials", score: "7,7", max: "10", pct: 77, count: "",
         verdict: "Goed",
         quote: "Vijfsterren kustpark aan de Zeeuwse kust; luxe vakantiehuizen dicht bij strand, duinen en gezellige dorpen.",
         author: "BungalowSpecials", when: "Recent" }

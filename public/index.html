@@ -177,7 +177,7 @@ function reviewCardHTML(id,s){
     <div class="count">${/\d/.test(s.count||'') ? s.count : ''}</div>
     <div class="bar"><span data-pct="${s.pct||0}"></span></div>
     <div class="latest-tag">Laatste reactie</div>
-    <div class="quote">${s.quote||''}<div class="quote-meta"><b>${isRealName(s.author)?s.author:''}</b><span>${(s.when&&s.when!=='Recent')?s.when:''}</span></div></div>`;
+    <div class="quote">${s.quote||''}<div class="quote-meta"><b>\u2013 Gasten</b><span>${(s.when&&s.when!=='Recent')?s.when:''}</span></div></div>`;
 }
 
 // Toon alleen een echte reviewer-naam of nette omschrijving; verberg
