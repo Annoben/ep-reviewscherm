@@ -68,17 +68,46 @@ const PARKS = {
         verdict: "Zeer goed",
         quote: "\u201CClean, neat and modern interior, nice furniture and art; big swimming pool, quite close to Maastricht.\u201D Gast prees de snelle, effici\u00EBnte verwarming.",
         author: "Geverifieerde gast", when: "Recent" },
-      zoover: { name: "Zoover", score: "8,3", max: "10", pct: 83, count: "reviews",
+      zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "36 beoordelingen",
         verdict: "Zeer goed",
         quote: "Gasten waarderen de gezellige ligging tussen Maastricht en Valkenburg; het park voelt handig en knus, en de chalets zien er stralend schoon uit.",
         author: "Zoover-review", when: "Recent" },
-      google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "beoordelingen",
+      google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "1.200 beoordelingen",
         verdict: "Goed",
         quote: "Mooie, moderne huisjes met vriendelijk personeel bij de receptie; ideale uitvalsbasis om Maastricht en Valkenburg te verkennen.",
         author: "Google-review", when: "Recent" },
-      special: { name: "BungalowSpecials", score: "8,3", max: "10", pct: 83, count: "beoordelingen",
+      special: { name: "BungalowSpecials", score: "8,3", max: "10", pct: 83, count: "133 beoordelingen",
         verdict: "Zeer goed",
         quote: "Rustig en gezinsvriendelijk park in het Limburgse heuvellandschap; de bourgondische gezelligheid van Maastricht ligt om de hoek.",
+        author: "BungalowSpecials", when: "Recent" }
+    }
+  },
+
+  hogekempen: {
+    name: "Hoge Kempen",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/52/Hoge_Kempen%282%29.svg",
+    urls: {
+      booking: "https://www.booking.com/hotel/be/europarcs-hoge-kempen.html",
+      zoover:  "https://www.zoover.nl/a/479779/europarcs-hoge-kempen",
+      special: "https://www.bungalowspecials.be/bungalows/europarcs_hoge_kempen.html"
+    },
+    googlePlaceIdEnv: "GOOGLE_PLACE_ID_HOGEKEMPEN",
+    sites: {
+      booking: { name: "Booking.com", score: "8,6", max: "10", pct: 86, count: "163 beoordelingen",
+        verdict: "Fantastisch",
+        quote: "Gasten roemen de rustige ligging aan de rand van Nationaal Park Hoge Kempen; nieuwe, comfortabele accommodaties en vriendelijk personeel.",
+        author: "Geverifieerde gast", when: "Recent" },
+      zoover: { name: "Zoover", score: "9,0", max: "10", pct: 90, count: "119 beoordelingen",
+        verdict: "Fenomenaal",
+        quote: "Vakantiegangers genieten van de stralende natuur en het rustige gevoel; keurig onderhouden park, ideaal voor gezinnen die rust en plezier zoeken.",
+        author: "Zoover-review", when: "Recent" },
+      google: { name: "Google", score: "4,3", max: "5", pct: 86, count: "beoordelingen",
+        verdict: "Goed",
+        quote: "Prachtige, groene omgeving net over de grens bij Maastricht; fijne uitvalsbasis om te wandelen en fietsen in de Hoge Kempen.",
+        author: "Google-review", when: "Recent" },
+      special: { name: "BungalowSpecials", score: "8,0", max: "10", pct: 80, count: "beoordelingen",
+        verdict: "Zeer goed",
+        quote: "Gezellig vakantiepark met vernieuwde accommodaties; ideale uitvalsbasis voor uitstapjes naar Genk, Hasselt en Maastricht.",
         author: "BungalowSpecials", when: "Recent" }
     }
   }
@@ -142,7 +171,7 @@ async function fetchZoover(url) {
   // De score staat vlak vóór het woord "Score uit ... reviews" of vóór een
   // waardering als "Fantastisch/Zeer goed/Goed". Pak dat getal (0-10, evt. met decimaal).
   let score = null;
-  const scoreCtx = text.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:Fantastisch|Zeer goed|Goed|Uitstekend|Prima|Voldoende)?\s*Score uit/i);
+  const scoreCtx = text.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:Fenomenaal|Fantastisch|Uitstekend|Zeer goed|Goed|Prima|Voldoende)?\s*Score uit/i);
   if (scoreCtx) score = scoreCtx[1];
   // Fallback: "Deze accommodatie heeft een score van <n>"
   if (!score) {
@@ -163,12 +192,18 @@ async function fetchZoover(url) {
 // ---------- BungalowSpecials ----------
 async function fetchSpecial(url) {
   const $ = await getHtml(url);
+  const text = $("body").text().replace(/\s+/g, " ");
   let score = null;
-  $('*').each((i, el) => {
-    const t = $(el).text();
-    if (!score && /\d+[.,]\d+\s*\/\s*10/.test(t)) score = numComma(t);
-  });
-  return { score };
+  const sm = text.match(/(\d+[.,]\d+)\s*\/\s*10/);
+  if (sm) score = sm[1].replace(".", ",");
+  // aantal reviews/beoordelingen
+  let count = null;
+  const cm = text.match(/([\d.\u00a0]{1,6})\s*(?:beoordelingen|reviews|recensies)/i);
+  if (cm) count = cm[1].replace(/[.\u00a0]/g, "") + " beoordelingen";
+  const out = {};
+  if (score) out.score = score;
+  if (count) out.count = count;
+  return out;
 }
 
 // ---------- Google (Places API) ----------
