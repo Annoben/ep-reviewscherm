@@ -30,7 +30,7 @@ const PARKS = {
     logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/71/Maasduinen%282%29.svg",
     urls: {
       booking: "https://www.booking.com/hotel/nl/droompark-maasduinen-belfeld4.nl.html",
-      zoover:  "https://www.zoover.nl/nederland/limburg/belfeld/europarcs-maasduinen/vakantiepark",
+      zoover:  "https://www.zoover.nl/a/102231/europarcs-maasduinen",
       special: "https://www.bungalowspecials.nl/bungalows/europarcs_maasduinen.html"
     },
     googlePlaceIdEnv: "GOOGLE_PLACE_ID_MAASDUINEN",
@@ -125,9 +125,39 @@ async function fetchBooking(url) {
 
 // ---------- Zoover ----------
 async function fetchZoover(url) {
-  const $ = await getHtml(url);
-  const el = $('[class*="rating"],[class*="score"]').first().text();
-  return { score: numComma(el) };
+  const res = await fetchT(url, { headers: { "User-Agent": UA, "Accept-Language": "nl-NL,nl;q=0.9" } });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  const html = await res.text();
+  const $ = cheerio.load(html);
+  const text = $("body").text().replace(/\s+/g, " ");
+
+  const out = {};
+
+  // Zoover toont: "<score> Fantastisch Score uit <n> reviews"
+  // Vind het aantal reviews en de bijbehorende score los van elkaar.
+  const reviewsMatch = text.match(/Score uit\s*([\d.\u00a0]+)\s*reviews/i);
+  let reviewCount = null;
+  if (reviewsMatch) reviewCount = reviewsMatch[1].replace(/[.\u00a0]/g, "");
+
+  // De score staat vlak vóór het woord "Score uit ... reviews" of vóór een
+  // waardering als "Fantastisch/Zeer goed/Goed". Pak dat getal (0-10, evt. met decimaal).
+  let score = null;
+  const scoreCtx = text.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:Fantastisch|Zeer goed|Goed|Uitstekend|Prima|Voldoende)?\s*Score uit/i);
+  if (scoreCtx) score = scoreCtx[1];
+  // Fallback: "Deze accommodatie heeft een score van <n>"
+  if (!score) {
+    const alt = text.match(/score van\s*\*?\*?\s*(\d{1,2}(?:[.,]\d)?)/i);
+    if (alt) score = alt[1];
+  }
+
+  // Zoover geeft soms een heel getal ("8"); toon als "8,0" voor nette weergave.
+  if (score) {
+    score = score.replace(".", ",");
+    if (!score.includes(",")) score = score + ",0";
+    out.score = score;
+  }
+  if (reviewCount) out.count = reviewCount + " beoordelingen";
+  return out;
 }
 
 // ---------- BungalowSpecials ----------
