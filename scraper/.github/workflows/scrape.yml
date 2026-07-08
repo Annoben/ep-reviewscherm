@@ -1,0 +1,43 @@
+name: Scrape reviewscores
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo uitchecken
+        uses: actions/checkout@v4
+
+      - name: Node installeren
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Scraper-dependencies installeren
+        working-directory: scraper
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Scores ophalen (echte browser)
+        working-directory: scraper
+        run: node scrape.js
+
+      - name: scores.json committen als er iets veranderd is
+        run: |
+          git config user.name "review-bot"
+          git config user.email "actions@github.com"
+          git add public/scores.json
+          if git diff --staged --quiet; then
+            echo "Geen wijzigingen in scores.json"
+          else
+            git commit -m "Automatische update reviewscores"
+            git push
+          fi
