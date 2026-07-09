@@ -37,10 +37,23 @@ function commaScore(n) {
 
 // ---------- Zoek aggregateRating in JSON-LD van de pagina ----------
 // Dit is de STABIELE bron: schema.org-data die ook zoekmachines lezen.
-async function readJsonLdRating(page) {
+// Nederlandse datumnotatie: "2026-07-03" -> "3 juli 2026"
+const NL_MONTHS = ["januari","februari","maart","april","mei","juni","juli",
+  "augustus","september","oktober","november","december"];
+function formatDateNL(raw) {
+  if (!raw) return null;
+  const d = new Date(raw);
+  if (isNaN(d.getTime())) return null;
+  return d.getUTCDate() + " " + NL_MONTHS[d.getUTCMonth()] + " " + d.getUTCFullYear();
+}
+
+// Leest zowel de aggregateRating als de nieuwste losse review uit de JSON-LD.
+async function readJsonLd(page) {
   const blocks = await page.$$eval('script[type="application/ld+json"]', (els) =>
     els.map((e) => e.textContent || "")
   );
+  let rating = null;
+  let review = null; // { text, date }
   for (const raw of blocks) {
     let data;
     try {
@@ -48,7 +61,6 @@ async function readJsonLdRating(page) {
     } catch {
       continue;
     }
-    // JSON-LD kan een object of een array (of @graph) zijn
     const candidates = [];
     const pushAll = (x) => {
       if (!x) return;
@@ -60,78 +72,106 @@ async function readJsonLdRating(page) {
     };
     pushAll(data);
     for (const c of candidates) {
-      const ar = c.aggregateRating || c.AggregateRating;
-      if (ar && (ar.ratingValue != null)) {
-        return {
-          value: ar.ratingValue,
-          count: ar.reviewCount != null ? ar.reviewCount : ar.ratingCount,
-        };
+      // Rating
+      if (!rating) {
+        const ar = c.aggregateRating || c.AggregateRating;
+        if (ar && ar.ratingValue != null) {
+          rating = { value: ar.ratingValue, count: ar.reviewCount != null ? ar.reviewCount : ar.ratingCount };
+        }
+      }
+      // Losse reviews: kan c.review zijn (object of array)
+      const revs = c.review || c.reviews;
+      if (revs) {
+        const arr = Array.isArray(revs) ? revs : [revs];
+        // pak de nieuwste met een tekst
+        const withDate = arr
+          .map((r) => ({
+            text: (r.reviewBody || r.description || "").trim(),
+            date: r.datePublished || r.dateCreated || null,
+          }))
+          .filter((r) => r.text || r.date);
+        if (withDate.length && !review) {
+          // sorteer op datum aflopend indien mogelijk
+          withDate.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+          review = withDate[0];
+        }
       }
     }
   }
-  return null;
+  return { rating, review };
 }
 
-// ---------- Per bron: haal score + aantal ----------
+// terugval-helper: alleen rating (compat met bestaande aanroepen)
+async function readJsonLdRating(page) {
+  const { rating } = await readJsonLd(page);
+  return rating;
+}
+
+// ---------- Per bron: score + aantal + nieuwste review ----------
 // Elke functie probeert eerst JSON-LD (stabiel), daarna zichtbare tekst (fallback).
+// Retourneert: { score, count, reviewText, reviewDate }
+
+function trimReview(t) {
+  if (!t) return null;
+  t = t.replace(/\s+/g, " ").trim();
+  if (!t) return null;
+  return t.length > 200 ? t.slice(0, 197).trimEnd() + "…" : t;
+}
 
 async function scrapeZoover(page, url) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
   await page.waitForTimeout(1500);
-  // 1) JSON-LD
-  const ld = await readJsonLdRating(page);
-  if (ld && ld.value != null) {
-    return { score: commaScore(ld.value), count: ld.count != null ? String(ld.count) : null };
+  const { rating, review } = await readJsonLd(page);
+  let score = null, count = null;
+  if (rating && rating.value != null) {
+    score = commaScore(rating.value);
+    count = rating.count != null ? String(rating.count) : null;
+  } else {
+    const flat = ((await page.textContent("body")) || "").replace(/\s+/g, " ");
+    const cm = flat.match(/Score uit\s*([\d.\u00a0]+)\s*reviews/i);
+    count = cm ? cm[1].replace(/[.\u00a0]/g, "") : null;
+    const sc = flat.match(/(\d{1,2}(?:[.,]\d)?)\s*(?:Fenomenaal|Fantastisch|Uitstekend|Zeer goed|Goed|Prima|Voldoende|Onvoldoende)?\s*Score uit/i);
+    if (sc) score = commaScore(sc[1]);
   }
-  // 2) zichtbare tekst: "8,0 ... Score uit 36 reviews"
-  const text = (await page.textContent("body")) || "";
-  const flat = text.replace(/\s+/g, " ");
-  const cm = flat.match(/Score uit\s*([\d.\u00a0]+)\s*reviews/i);
-  const count = cm ? cm[1].replace(/[.\u00a0]/g, "") : null;
-  let score = null;
-  const sc = flat.match(
-    /(\d{1,2}(?:[.,]\d)?)\s*(?:Fenomenaal|Fantastisch|Uitstekend|Zeer goed|Goed|Prima|Voldoende|Onvoldoende)?\s*Score uit/i
-  );
-  if (sc) score = commaScore(sc[1]);
-  return { score, count };
+  return { score, count, reviewText: trimReview(review && review.text), reviewDate: formatDateNL(review && review.date) };
 }
 
 async function scrapeBooking(page, url) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
   await page.waitForTimeout(1500);
-  const ld = await readJsonLdRating(page);
-  if (ld && ld.value != null) {
-    return { score: commaScore(ld.value), count: ld.count != null ? String(ld.count) : null };
+  const { rating, review } = await readJsonLd(page);
+  let score = null, count = null;
+  if (rating && rating.value != null) {
+    score = commaScore(rating.value);
+    count = rating.count != null ? String(rating.count) : null;
+  } else {
+    const flat = ((await page.textContent("body")) || "").replace(/\s+/g, " ");
+    const sc =
+      flat.match(/Scored\s*(\d{1,2}[.,]\d)/i) ||
+      flat.match(/(\d{1,2}[.,]\d)\s*(?:Wonderful|Superb|Very good|Fabulous|Good|Fantastisch|Zeer goed|Erg goed|Goed)/i);
+    if (sc) score = commaScore(sc[1]);
+    const cm = flat.match(/([\d.\u00a0]{2,})\s*(?:reviews|beoordelingen)/i);
+    count = cm ? cm[1].replace(/[.\u00a0]/g, "") : null;
   }
-  // fallback: Booking's zichtbare score-widget
-  const text = (await page.textContent("body")) || "";
-  const flat = text.replace(/\s+/g, " ");
-  let score = null;
-  const sc =
-    flat.match(/Scored\s*(\d{1,2}[.,]\d)/i) ||
-    flat.match(/(\d{1,2}[.,]\d)\s*(?:Wonderful|Superb|Very good|Fabulous|Good|Fantastisch|Zeer goed|Erg goed|Goed)/i);
-  if (sc) score = commaScore(sc[1]);
-  const cm = flat.match(/([\d.\u00a0]{2,})\s*(?:reviews|beoordelingen)/i);
-  const count = cm ? cm[1].replace(/[.\u00a0]/g, "") : null;
-  return { score, count };
+  return { score, count, reviewText: trimReview(review && review.text), reviewDate: formatDateNL(review && review.date) };
 }
 
 async function scrapeSpecial(page, url) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
   await page.waitForTimeout(1500);
-  const ld = await readJsonLdRating(page);
-  if (ld && ld.value != null) {
-    return { score: commaScore(ld.value), count: ld.count != null ? String(ld.count) : null };
+  const { rating, review } = await readJsonLd(page);
+  let score = null, count = null;
+  if (rating && rating.value != null) {
+    score = commaScore(rating.value);
+    count = rating.count != null ? String(rating.count) : null;
+  } else {
+    const flat = ((await page.textContent("body")) || "").replace(/\s+/g, " ");
+    const sc =
+      flat.match(/reizigersbeoordeling[^0-9]*(\d{1,2}[.,]?\d?)\s*\/\s*10/i) ||
+      flat.match(/(\d{1,2}[.,]\d)\s*\/\s*10/);
+    if (sc) score = commaScore(sc[1]);
   }
-  // fallback: "gemiddelde reizigersbeoordeling voor dit park is 8.2/10"
-  const text = (await page.textContent("body")) || "";
-  const flat = text.replace(/\s+/g, " ");
-  let score = null;
-  const sc =
-    flat.match(/reizigersbeoordeling[^0-9]*(\d{1,2}[.,]?\d?)\s*\/\s*10/i) ||
-    flat.match(/(\d{1,2}[.,]\d)\s*\/\s*10/);
-  if (sc) score = commaScore(sc[1]);
-  return { score, count: null };
+  return { score, count, reviewText: trimReview(review && review.text), reviewDate: formatDateNL(review && review.date) };
 }
 
 const SCRAPERS = { zoover: scrapeZoover, booking: scrapeBooking, special: scrapeSpecial };
