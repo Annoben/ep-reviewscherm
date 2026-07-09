@@ -38,19 +38,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "8,3", max: "10", pct: 83, count: "522 beoordelingen",
         verdict: "Zeer goed",
         quote: "Een recente gast omschrijft een fijn verblijf met een sterke ligging en een leuk park; de trampoline bij de ingang wordt door kinderen erg gewaardeerd.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "8,6", max: "10", pct: 86, count: "183 beoordelingen",
         verdict: "Fantastisch",
         quote: "\u201CNetjes, rustig en schoon park, zeker aan te raden.\u201D Gast reisde met jonge kinderen en verbleef in een huisje aan de vijver met uitzicht op de fontein.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "1.114 beoordelingen",
         verdict: "Goed",
         quote: "Een terugkerende gast noemt het park voor de derde keer geweldig: goed uitgeruste huisjes middenin de natuur en een fijne uitvalsbasis om de omgeving te verkennen.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "\u201CWundersch\u00F6ne Lage in einem reizvollen Naturgebiet.\u201D Gast prees vooral de rust en de historische dorpjes langs de Maas, ideaal om te wandelen en te fietsen.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -67,19 +67,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "8,3", max: "10", pct: 83, count: "355 beoordelingen",
         verdict: "Zeer goed",
         quote: "\u201CClean, neat and modern interior, nice furniture and art; big swimming pool, quite close to Maastricht.\u201D Gast prees de snelle, effici\u00EBnte verwarming.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "36 beoordelingen",
         verdict: "Zeer goed",
         quote: "Gasten waarderen de gezellige ligging tussen Maastricht en Valkenburg; het park voelt handig en knus, en de chalets zien er stralend schoon uit.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "1.200 beoordelingen",
         verdict: "Goed",
         quote: "Mooie, moderne huisjes met vriendelijk personeel bij de receptie; ideale uitvalsbasis om Maastricht en Valkenburg te verkennen.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "8,3", max: "10", pct: 83, count: "",
         verdict: "Zeer goed",
         quote: "Rustig en gezinsvriendelijk park in het Limburgse heuvellandschap; de bourgondische gezelligheid van Maastricht ligt om de hoek.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -96,19 +96,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "8,6", max: "10", pct: 86, count: "163 beoordelingen",
         verdict: "Fantastisch",
         quote: "Gasten roemen de rustige ligging aan de rand van Nationaal Park Hoge Kempen; nieuwe, comfortabele accommodaties en vriendelijk personeel.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "9,0", max: "10", pct: 90, count: "119 beoordelingen",
         verdict: "Fenomenaal",
         quote: "Vakantiegangers genieten van de stralende natuur en het rustige gevoel; keurig onderhouden park, ideaal voor gezinnen die rust en plezier zoeken.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,3", max: "5", pct: 86, count: "300+ beoordelingen",
         verdict: "Goed",
         quote: "Prachtige, groene omgeving net over de grens bij Maastricht; fijne uitvalsbasis om te wandelen en fietsen in de Hoge Kempen.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Gezellig vakantiepark met vernieuwde accommodaties; ideale uitvalsbasis voor uitstapjes naar Genk, Hasselt en Maastricht.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -125,19 +125,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Goed",
         quote: "Waterrijk vakantiepark aan de Kraaijenbergse Plassen; fijn voor watersport en gezinnen, met ruime, moderne accommodaties.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Goed",
         quote: "Mooi gelegen aan het water; rustige ligging en prettige, verzorgde accommodaties.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "721 beoordelingen",
         verdict: "Goed",
         quote: "Ruim opgezet waterpark met een fijne ligging aan de plassen; goede uitvalsbasis in Noord-Brabant.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Goed",
         quote: "Watervakantiepark met comfortabele accommodaties; ideaal voor een actieve of juist rustige vakantie aan het water.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -154,19 +154,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "7,9", max: "10", pct: 79, count: "501 beoordelingen",
         verdict: "Prima",
         quote: "Rustig gelegen park in Susteren; nette accommodaties en een goede uitvalsbasis om Limburg te verkennen.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Prettig, overzichtelijk park in het Limburgse; fijne rust en ruimte.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,0", max: "5", pct: 80, count: "",
         verdict: "Goed",
         quote: "Fijne ligging in het Limburgse landschap; goede uitvalsbasis richting Roermond, Maasmechelen en de Maasplassen.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Comfortabel vakantiepark in Susteren; centraal gelegen voor uitstapjes in Limburg en net over de grens.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -183,19 +183,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "7,8", max: "10", pct: 78, count: "678 beoordelingen",
         verdict: "Goed",
         quote: "Nieuw kustpark vlak bij het brede strand van Cadzand-Bad; moderne, goed uitgeruste appartementen met zeezicht.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "7,8", max: "10", pct: 78, count: "",
         verdict: "Goed",
         quote: "Rustige ligging vlak bij zee; fijne, verzorgde accommodaties aan de Zeeuwse kust.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "",
         verdict: "Goed",
         quote: "Op loopafstand van een van de breedste stranden van Nederland; ideaal voor rust, strand en culinair genieten.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "7,8", max: "10", pct: 78, count: "",
         verdict: "Goed",
         quote: "Kustpark bij Cadzand met moderne appartementen; perfecte plek voor een strandvakantie in Zeeland.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -212,19 +212,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "8,4", max: "10", pct: 84, count: "106 beoordelingen",
         verdict: "Zeer goed",
         quote: "Klein, rustig park in Westkapelle op minder dan 500 meter van het strand; moderne accommodaties in het duinlandschap.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "8,4", max: "10", pct: 84, count: "",
         verdict: "Zeer goed",
         quote: "Kleinschalig en rustig; heerlijk dicht bij het strand van Walcheren, een oase van rust.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "",
         verdict: "Goed",
         quote: "Rustige ligging aan de tip van Walcheren, dicht bij Westkapelle, Zoutelande en Vlissingen.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "8,4", max: "10", pct: 84, count: "",
         verdict: "Zeer goed",
         quote: "Kleinschalig duinpark vlak bij zee; ideaal voor wie rust en ruimte zoekt aan de Zeeuwse kust.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
@@ -241,25 +241,25 @@ const PARKS = {
       booking: { name: "Booking.com", score: "7,7", max: "10", pct: 77, count: "972 beoordelingen",
         verdict: "Goed",
         quote: "Kustpark bij Breskens op loopafstand van strand en duinen; luxe accommodaties, binnenzwembad en restaurant.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "7,7", max: "10", pct: 77, count: "",
         verdict: "Goed",
         quote: "Fijne ligging bij het strand van Breskens; ruime accommodaties en volop voorzieningen voor gezinnen.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,1", max: "5", pct: 82, count: "",
         verdict: "Goed",
         quote: "Vlak bij zee en de haven van Breskens; fijne uitvalsbasis met Brugge en Knokke op korte afstand.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "7,7", max: "10", pct: 77, count: "",
         verdict: "Goed",
         quote: "Vijfsterren kustpark aan de Zeeuwse kust; luxe vakantiehuizen dicht bij strand, duinen en gezellige dorpen.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   },
 
   gulperberg: {
     name: "Gulperberg",
-    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/33/Gulperberg%282%29.svg",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/40/Gulperberg.svg",
     urls: {
       booking: "https://www.booking.com/hotel/nl/camping-gulperberg.html",
       zoover:  "https://www.zoover.nl/a/102290/europarcs-gulperberg",
@@ -270,19 +270,19 @@ const PARKS = {
       booking: { name: "Booking.com", score: "8,0", max: "10", pct: 80, count: "841 beoordelingen",
         verdict: "Zeer goed",
         quote: "Prachtig gelegen op de zuidelijke helling van de Gulperberg; adembenemend uitzicht over het Limburgse heuvellandschap.",
-        author: "Geverifieerde gast", when: "Recent" },
+        author: "Geverifieerde gast", when: "recent" },
       zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "",
         verdict: "Zeer goed",
         quote: "Schitterende ligging met panoramisch uitzicht; ideaal voor wandelaars en fietsers in Zuid-Limburg.",
-        author: "Zoover-review", when: "Recent" },
+        author: "Zoover-review", when: "recent" },
       google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "",
         verdict: "Goed",
         quote: "Op de Gulperberg bij Gulpen; fijne uitvalsbasis voor Maastricht, Valkenburg en de grotten.",
-        author: "Google-review", when: "Recent" },
+        author: "Google-review", when: "recent" },
       special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
         verdict: "Prima",
         quote: "Midden in het heuvellandschap van Zuid-Limburg; volop faciliteiten en prachtige natuur rondom.",
-        author: "BungalowSpecials", when: "Recent" }
+        author: "BungalowSpecials", when: "recent" }
     }
   }
 };
@@ -352,6 +352,12 @@ function applyScraped(parkKey) {
       if (!isNaN(num)) s.pct = Math.round((num / parseFloat(s.max)) * 100);
     }
     if (d.count) s.count = d.count + " beoordelingen";
+    // Losse review (Optie C): echte tekst waar gevonden, anders italic-fallback in de UI.
+    // Naam tonen we nooit (privacy) — altijd "Gast". Datum indien beschikbaar, anders "recent".
+    if (d.reviewText) { s.quote = d.reviewText; s.reviewMissing = false; }
+    else { s.quote = ""; s.reviewMissing = true; }
+    s.author = "Gast";
+    s.when = d.reviewDate || "recent";
   }
 }
 
