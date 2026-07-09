@@ -1,5 +1,185 @@
 {
-  "updated": null,
-  "note": "Dit bestand wordt elk uur automatisch bijgewerkt door de GitHub Actions-scraper. Vóór de eerste run gebruikt de server de fallback-waarden uit server.js.",
-  "parks": {}
+  "updated": "2026-07-09T18:54:43.419Z",
+  "parks": {
+    "maasduinen": {
+      "booking": {
+        "score": "8,3",
+        "count": "554",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "8,6",
+        "count": "184",
+        "reviewText": "Het was een heel fijn verblijf, personeel is erg vriendelijk en de ligging is perfect. Ik ga hier zeker nog eens terugkomen!",
+        "reviewDate": "9 juli 2026"
+      },
+      "special": {
+        "score": "7,9",
+        "count": "133",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "poortvanmaastricht": {
+      "booking": {
+        "score": "8,3",
+        "count": "330",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "8,0",
+        "count": "36",
+        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
+        "reviewDate": "17 mei 2026"
+      },
+      "special": {
+        "score": "8,3",
+        "count": "44",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "hogekempen": {
+      "booking": {
+        "score": "8,6",
+        "count": "1023",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "9,0",
+        "count": "119",
+        "reviewText": "We hebben een fantastische tijd gehad bij EuroParcs Hoge Kempen met ons gezin en onze jonge kinderen! Het park is echt prachtig aangelegd, heel netjes onderhouden en overal schoon en dat geeft mete…",
+        "reviewDate": "1 april 2026"
+      },
+      "special": {
+        "score": "8,0",
+        "count": "40",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "kraaijenbergseplassen": {
+      "booking": {
+        "score": "8,1",
+        "count": "575",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "8,9",
+        "count": "22",
+        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
+        "reviewDate": "26 mei 2026"
+      },
+      "special": {
+        "score": "7,8",
+        "count": "131",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "limburg": {
+      "booking": {
+        "score": "8,2",
+        "count": "673",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "9,0",
+        "count": "36",
+        "reviewText": "Wij zijn hier een paar dagen geweest. Het was met één woord geweldig. Wij komen zekers weer terug. Ik voelde mijn eigen helemaal tot rust komen. Prachtige omgeving en geen massa is kassa. Je hebt e…",
+        "reviewDate": "23 december 2025"
+      },
+      "special": {
+        "score": "7,8",
+        "count": "384",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "cadzand": {
+      "booking": {
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "3,9",
+        "count": "14",
+        "reviewText": "Slechte bedden, gehorige kamers, stof onder bedden,dekbedden erg stoffig. veel te kleine slaapkamer beneden.Zo ook boven Geen bergruimte, telkens de koffers op bed neerleggen om wat te pakken. Bove…",
+        "reviewDate": "17 augustus 2025"
+      },
+      "special": {
+        "score": "8,2",
+        "count": "4",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "zeeuwseduinen": {
+      "booking": {
+        "score": "8,8",
+        "count": "11",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "9,0",
+        "count": "1",
+        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
+        "reviewDate": "6 juli 2026"
+      },
+      "special": {
+        "score": "8,5",
+        "count": "1",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "schoneveld": {
+      "booking": {
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "5,0",
+        "count": "14",
+        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
+        "reviewDate": "3 september 2025"
+      },
+      "special": {
+        "score": "8,2",
+        "count": "76",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    },
+    "gulperberg": {
+      "booking": {
+        "score": "8,3",
+        "count": "625",
+        "reviewText": null,
+        "reviewDate": null
+      },
+      "zoover": {
+        "score": "7,3",
+        "count": "54",
+        "reviewText": "Wij hadden een flink scheve vloer in onze huurtent. Dit werd netjes opgelost door een upgrade aan te bieden naar een andere huurtent met zelfs een flesje wijn! Verder een heerlijk park waar we al v…",
+        "reviewDate": "30 juni 2026"
+      },
+      "special": {
+        "score": "7,9",
+        "count": "87",
+        "reviewText": null,
+        "reviewDate": null
+      }
+    }
+  }
 }
