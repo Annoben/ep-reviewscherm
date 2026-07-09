@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-08T22:16:20.874Z",
+  "updated": "2026-07-09T10:36:54.888Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,3",
-        "count": "551"
+        "count": "554"
       },
       "zoover": {
         "score": "8,6",
-        "count": "183"
+        "count": "184"
       },
       "special": {
         "score": "7,9",
@@ -18,7 +18,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,3",
-        "count": "330"
+        "count": "329"
       },
       "zoover": {
         "score": "8,0",
@@ -32,7 +32,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1020"
+        "count": "1021"
       },
       "zoover": {
         "score": "9,0",
