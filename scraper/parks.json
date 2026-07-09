@@ -62,5 +62,13 @@
       "zoover": "https://www.zoover.nl/a/103901/europarcs-schoneveld",
       "special": "https://www.bungalowspecials.nl/bungalows/europarcs_schoneveld.html"
     }
+  },
+  "gulperberg": {
+    "name": "Gulperberg",
+    "urls": {
+      "booking": "https://www.booking.com/hotel/nl/camping-gulperberg.html",
+      "zoover": "https://www.zoover.nl/a/102290/europarcs-gulperberg",
+      "special": "https://www.bungalowspecials.nl/bungalows/europarcs_gulperberg.html"
+    }
   }
 }

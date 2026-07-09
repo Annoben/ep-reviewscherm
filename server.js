@@ -255,6 +255,35 @@ const PARKS = {
         quote: "Vijfsterren kustpark aan de Zeeuwse kust; luxe vakantiehuizen dicht bij strand, duinen en gezellige dorpen.",
         author: "BungalowSpecials", when: "Recent" }
     }
+  },
+
+  gulperberg: {
+    name: "Gulperberg",
+    logo: "https://cdn-cms.bookingexperts.com/uploads/theming/logo/image/21/33/Gulperberg%282%29.svg",
+    urls: {
+      booking: "https://www.booking.com/hotel/nl/camping-gulperberg.html",
+      zoover:  "https://www.zoover.nl/a/102290/europarcs-gulperberg",
+      special: "https://www.bungalowspecials.nl/bungalows/europarcs_gulperberg.html"
+    },
+    googlePlaceIdEnv: "GOOGLE_PLACE_ID_GULPERBERG",
+    sites: {
+      booking: { name: "Booking.com", score: "8,0", max: "10", pct: 80, count: "841 beoordelingen",
+        verdict: "Zeer goed",
+        quote: "Prachtig gelegen op de zuidelijke helling van de Gulperberg; adembenemend uitzicht over het Limburgse heuvellandschap.",
+        author: "Geverifieerde gast", when: "Recent" },
+      zoover: { name: "Zoover", score: "8,0", max: "10", pct: 80, count: "",
+        verdict: "Zeer goed",
+        quote: "Schitterende ligging met panoramisch uitzicht; ideaal voor wandelaars en fietsers in Zuid-Limburg.",
+        author: "Zoover-review", when: "Recent" },
+      google: { name: "Google", score: "4,2", max: "5", pct: 84, count: "",
+        verdict: "Goed",
+        quote: "Op de Gulperberg bij Gulpen; fijne uitvalsbasis voor Maastricht, Valkenburg en de grotten.",
+        author: "Google-review", when: "Recent" },
+      special: { name: "BungalowSpecials", score: "7,9", max: "10", pct: 79, count: "",
+        verdict: "Prima",
+        quote: "Midden in het heuvellandschap van Zuid-Limburg; volop faciliteiten en prachtige natuur rondom.",
+        author: "BungalowSpecials", when: "Recent" }
+    }
   }
 };
 
@@ -363,14 +392,70 @@ async function refresh() {
 function buildPayload() {
   const parks = {};
   for (const [key, park] of Object.entries(PARKS)) {
-    parks[key] = { name: park.name, logo: park.logo, sites: park.sites };
+    // Bouw per bron een link naar de juiste reviewpagina van dít park.
+    const placeId = process.env[park.googlePlaceIdEnv];
+    const links = {
+      booking: park.urls.booking || null,
+      zoover: park.urls.zoover || null,
+      special: park.urls.special || null,
+      google: placeId
+        ? "https://search.google.com/local/reviews?placeid=" + placeId
+        : "https://www.google.com/maps/search/" + encodeURIComponent("EuroParcs " + park.name),
+    };
+    parks[key] = { name: park.name, logo: park.logo, sites: park.sites, links };
   }
   return { updated: lastUpdated, parks };
 }
 
+// ---------- Bezoekersstatistieken ----------
+// LET OP: op Render's gratis tier "slaapt" de server na inactiviteit en verliest
+// dan dit geheugen. De tellingen zijn dus "sinds de laatste (her)start". Voor
+// blijvende historie is externe opslag nodig — zie SCRAPER-UITLEG / stats-uitleg.
+const stats = {
+  since: new Date().toISOString(),
+  total: 0,
+  perDay: {},          // "2026-07-08": aantal
+  perHour: new Array(24).fill(0),
+  recent: [],          // laatste 30 bezoeken: { at, path, ref, country }
+  countries: {},       // "NL": aantal
+};
+
+function trackVisit(req) {
+  // Alleen echte paginabezoeken tellen (niet de API of health-checks/assets).
+  const p = req.path;
+  if (p.startsWith("/api") || p === "/healthz" || p === "/stats" ||
+      p.startsWith("/stats") || p.includes(".")) return;
+
+  const now = new Date();
+  const day = now.toISOString().slice(0, 10);
+  stats.total++;
+  stats.perDay[day] = (stats.perDay[day] || 0) + 1;
+  stats.perHour[now.getUTCHours()]++;
+
+  // Grove herkomst: land via Cloudflare/host-header als aanwezig (geen IP opslag).
+  const country =
+    req.headers["cf-ipcountry"] ||
+    req.headers["x-vercel-ip-country"] ||
+    null;
+  if (country) stats.countries[country] = (stats.countries[country] || 0) + 1;
+
+  stats.recent.unshift({
+    at: now.toISOString(),
+    path: p,
+    ref: (req.headers["referer"] || "").slice(0, 80) || null,
+    country: country || null,
+  });
+  if (stats.recent.length > 30) stats.recent.pop();
+}
+
+app.use((req, _res, next) => { try { trackVisit(req); } catch {} next(); });
+
+app.get("/api/stats", (_req, res) => res.json(stats));
+
 // ---------- Routes ----------
 app.use(express.static(path.join(__dirname, "public")));
 app.get("/api/data", (_req, res) => res.json(buildPayload()));
+app.get("/stats", (_req, res) => res.sendFile(path.join(__dirname, "public", "stats.html")));
 app.get("/healthz", (_req, res) => res.send("ok"));
 
 // De server gaat direct "live" (poort open) met de laatst bekende cijfers.

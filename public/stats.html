@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bezoekersstatistieken · EuroParcs reviewscherm</title>
+<style>
+  :root{
+    --ep-green:#3C6E47; --ep-gold:#C8A24C; --ep-blue:#1f7ec4;
+    --ep-ink:#233129; --ep-ink-soft:#6b7a70; --ep-line:#e4decf;
+    --ep-cream:#FBF9F4; --ep-sand:#F3EFE4;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif;
+    background:linear-gradient(180deg,#fff,var(--ep-cream));color:var(--ep-ink);padding:28px;}
+  .top{border-top:4px solid var(--ep-green);}
+  .eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:11px;color:var(--ep-gold);font-weight:700;margin-bottom:4px;}
+  h1{font-size:22px;margin:0 0 2px;}
+  .sub{color:var(--ep-ink-soft);font-size:13px;margin-bottom:22px;}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:24px;}
+  .stat{background:#fff;border:1px solid var(--ep-line);border-radius:14px;padding:16px 18px;box-shadow:0 2px 8px rgba(35,49,42,.05);}
+  .stat .k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ep-ink-soft);font-weight:700;}
+  .stat .v{font-size:30px;font-weight:800;color:var(--ep-green);line-height:1.2;}
+  .panel{background:#fff;border:1px solid var(--ep-line);border-radius:14px;padding:18px;margin-bottom:18px;box-shadow:0 2px 8px rgba(35,49,42,.05);}
+  .panel h2{font-size:14px;margin:0 0 12px;text-transform:uppercase;letter-spacing:.06em;color:var(--ep-ink-soft);}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--ep-line);}
+  th{color:var(--ep-ink-soft);font-size:11px;text-transform:uppercase;letter-spacing:.06em;}
+  .bar-row{display:flex;align-items:center;gap:10px;margin:5px 0;}
+  .bar-row .lbl{width:52px;font-size:12px;color:var(--ep-ink-soft);}
+  .bar-row .track{flex:1;height:10px;background:var(--ep-sand);border-radius:6px;overflow:hidden;}
+  .bar-row .fill{height:100%;background:var(--ep-blue);border-radius:6px;}
+  .bar-row .n{width:36px;text-align:right;font-size:12px;font-weight:700;}
+  .note{background:#fff8e8;border:1px solid #ecd9a3;border-radius:12px;padding:13px 15px;font-size:12.5px;color:#6b5a2a;margin-bottom:20px;}
+  a.back{color:var(--ep-blue);text-decoration:none;font-size:13px;}
+  .muted{color:var(--ep-ink-soft);font-size:12px;}
+</style>
+</head>
+<body class="top">
+  <div class="eyebrow">EuroParcs reviewscherm</div>
+  <h1>Bezoekersstatistieken</h1>
+  <div class="sub">Wie kijkt er naar het dashboard, en wanneer.</div>
+
+  <div class="note" id="note">
+    <b>Let op — beperking op de gratis hosting.</b> Deze cijfers worden bijgehouden
+    zolang de server draait. Op Render's gratis tier start de server na langere
+    inactiviteit opnieuw op, waarna de teller weer op nul begint. De statistieken
+    zijn dus <b>“sinds de laatste (her)start”</b>, niet een volledige historie.
+    Wil je blijvende cijfers, dan is een kleine externe opslag nodig (kan later).
+  </div>
+
+  <div class="cards">
+    <div class="stat"><div class="k">Totaal bezoeken</div><div class="v" id="total">–</div></div>
+    <div class="stat"><div class="k">Vandaag</div><div class="v" id="today">–</div></div>
+    <div class="stat"><div class="k">Teller sinds</div><div class="v" id="since" style="font-size:15px;">–</div></div>
+  </div>
+
+  <div class="panel">
+    <h2>Bezoeken per uur (UTC)</h2>
+    <div id="hours"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Bezoeken per dag</h2>
+    <table id="days"><thead><tr><th>Dag</th><th>Bezoeken</th></tr></thead><tbody></tbody></table>
+  </div>
+
+  <div class="panel" id="countryPanel" style="display:none;">
+    <h2>Herkomst (land)</h2>
+    <table id="countries"><thead><tr><th>Land</th><th>Bezoeken</th></tr></thead><tbody></tbody></table>
+    <div class="muted">Herkomst wordt alleen getoond als de hosting een land-header meestuurt. IP-adressen worden niet opgeslagen.</div>
+  </div>
+
+  <div class="panel">
+    <h2>Laatste bezoeken</h2>
+    <table id="recent"><thead><tr><th>Tijd (UTC)</th><th>Pagina</th><th>Land</th></tr></thead><tbody></tbody></table>
+  </div>
+
+  <a class="back" href="/">← terug naar het dashboard</a>
+
+<script>
+function fmtTime(iso){ try{ return new Date(iso).toLocaleString('nl-NL'); }catch{ return iso; } }
+async function load(){
+  let s;
+  try{ s = await (await fetch('/api/stats',{cache:'no-store'})).json(); }
+  catch(e){ return; }
+
+  document.getElementById('total').textContent = s.total ?? 0;
+  const today = new Date().toISOString().slice(0,10);
+  document.getElementById('today').textContent = (s.perDay && s.perDay[today]) || 0;
+  document.getElementById('since').textContent = s.since ? new Date(s.since).toLocaleString('nl-NL') : '–';
+
+  // uren
+  const maxH = Math.max(1, ...s.perHour);
+  document.getElementById('hours').innerHTML = s.perHour.map((n,h)=>`
+    <div class="bar-row">
+      <span class="lbl">${String(h).padStart(2,'0')}:00</span>
+      <span class="track"><span class="fill" style="width:${Math.round(n/maxH*100)}%"></span></span>
+      <span class="n">${n}</span>
+    </div>`).join('');
+
+  // dagen
+  const dayRows = Object.entries(s.perDay||{}).sort((a,b)=>b[0].localeCompare(a[0]));
+  document.querySelector('#days tbody').innerHTML =
+    dayRows.length ? dayRows.map(([d,n])=>`<tr><td>${d}</td><td>${n}</td></tr>`).join('')
+                   : '<tr><td colspan="2" class="muted">Nog geen bezoeken.</td></tr>';
+
+  // landen
+  const cRows = Object.entries(s.countries||{}).sort((a,b)=>b[1]-a[1]);
+  if(cRows.length){
+    document.getElementById('countryPanel').style.display='block';
+    document.querySelector('#countries tbody').innerHTML =
+      cRows.map(([c,n])=>`<tr><td>${c}</td><td>${n}</td></tr>`).join('');
+  }
+
+  // recent
+  document.querySelector('#recent tbody').innerHTML =
+    (s.recent&&s.recent.length) ? s.recent.map(r=>`
+      <tr><td>${fmtTime(r.at)}</td><td>${r.path}</td><td>${r.country||'–'}</td></tr>`).join('')
+      : '<tr><td colspan="3" class="muted">Nog geen bezoeken.</td></tr>';
+}
+load();
+setInterval(load, 30000);
+</script>
+</body>
+</html>

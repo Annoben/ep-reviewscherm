@@ -41,17 +41,18 @@
   .refresh-note .spin{width:12px;height:12px;border-radius:50%;border:2px solid var(--ep-line);border-top-color:var(--ep-green);animation:spin 1.4s linear infinite;}
   @keyframes spin{to{transform:rotate(360deg);}}
 
-  .park-switch{display:flex;gap:14px;margin-bottom:22px;flex-wrap:wrap;align-items:center;}
-  .park-btn{display:flex;align-items:center;gap:12px;padding:10px 20px 10px 12px;border-radius:16px;
+  .park-switch{display:flex;gap:10px;margin-bottom:22px;flex-wrap:wrap;align-items:center;}
+  .park-btn{display:flex;align-items:center;gap:8px;padding:7px 13px 7px 9px;border-radius:13px;
     border:2px solid var(--ep-line);background:#fff;cursor:pointer;transition:all .18s ease;
     box-shadow:0 2px 8px rgba(35,49,42,.05);}
   .park-btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(35,49,42,.10);}
   .park-btn.active{border-color:var(--ep-green);background:#F3F7F2;box-shadow:0 6px 18px rgba(60,110,71,.15);}
-  .park-btn .p-logo{height:34px;max-width:130px;object-fit:contain;display:block;}
-  .park-btn .p-fallback{display:flex;align-items:center;gap:9px;}
-  .park-btn .p-fallback .leaf{width:30px;height:30px;border-radius:50%;background:var(--ep-green);display:flex;align-items:center;justify-content:center;}
-  .park-btn .p-name{font-weight:800;font-size:15px;color:var(--ep-ink);line-height:1;}
-  .park-btn .p-sub{font-size:11px;color:var(--ep-gold);font-weight:700;text-transform:uppercase;letter-spacing:.1em;}
+  .park-btn .p-logo{height:26px;max-width:104px;object-fit:contain;display:block;}
+  .park-btn .p-fallback{display:flex;align-items:center;gap:7px;}
+  .park-btn .p-fallback .leaf{width:24px;height:24px;border-radius:50%;background:var(--ep-green);display:flex;align-items:center;justify-content:center;}
+  .park-btn .p-fallback .leaf svg{width:14px;height:14px;}
+  .park-btn .p-name{font-weight:800;font-size:13px;color:var(--ep-ink);line-height:1;}
+  .park-btn .p-sub{font-size:10px;color:var(--ep-gold);font-weight:700;text-transform:uppercase;letter-spacing:.08em;}
   .park-btn.active .p-name{color:var(--ep-green);}
 
   .toggle-row{display:flex;gap:12px;margin-bottom:22px;flex-wrap:wrap;align-items:center;}
@@ -81,7 +82,10 @@
   .site-name{font-weight:800;font-size:16px;line-height:1.1;}
   .site-url{font-size:11px;color:var(--ep-ink-soft);}
 
-  .verdict{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin-bottom:6px;}
+  .verdict{display:none;}
+  .card-head-link{text-decoration:none;color:inherit;display:block;border-radius:10px;transition:opacity .15s ease;}
+  .card-head-link:hover{opacity:.72;}
+  .card-head-link:hover .site-name{text-decoration:underline;}
   .score-wrap{display:flex;align-items:baseline;gap:7px;margin-bottom:2px;}
   .score{font-size:54px;font-weight:800;line-height:1;letter-spacing:-.02em;color:var(--accent);}
   .score-max{font-size:19px;font-weight:700;color:var(--ep-ink-soft);}
@@ -166,13 +170,17 @@ let currentPark=null; // sleutel van het actieve park
 
 function fmt(n){ return (n==null)?'–':nf.format(n); }
 
-function reviewCardHTML(id,s){
-  return `
+function reviewCardHTML(id,s,link){
+  const head = `
     <div class="card-head">
       <div class="site-ic" style="background:${ACCENTS[id]}">${ICONS[id]}</div>
       <div><div class="site-name">${s.name}</div><div class="site-url">${URLS[id]||''}</div></div>
-    </div>
-    <div class="verdict">${s.verdict||''}</div>
+    </div>`;
+  const headLinked = link
+    ? `<a class="card-head-link" href="${link}" target="_blank" rel="noopener" title="Bekijk op ${s.name}">${head}</a>`
+    : head;
+  return `
+    ${headLinked}
     <div class="score-wrap"><span class="score">${s.score}</span><span class="score-max">/ ${s.max}</span></div>
     <div class="count">${/\d/.test(s.count||'') ? s.count : ''}</div>
     <div class="bar"><span data-pct="${s.pct||0}"></span></div>
@@ -226,7 +234,7 @@ function renderPark(){
     const card=document.createElement('div');
     card.className='card'; card.id='card-'+id;
     card.style.setProperty('--accent',ACCENTS[id]);
-    card.innerHTML=reviewCardHTML(id,s);
+    card.innerHTML=reviewCardHTML(id,s,(park.links&&park.links[id])||null);
     grid.appendChild(card);
 
     const btn=document.createElement('button');
