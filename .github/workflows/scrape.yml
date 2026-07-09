@@ -18,7 +18,7 @@ jobs:
       - name: Node installeren
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Scraper-dependencies installeren
         working-directory: scraper
@@ -39,5 +39,6 @@ jobs:
             echo "Geen wijzigingen in scores.json"
           else
             git commit -m "Automatische update reviewscores"
+            git pull --rebase --autostash origin main || true
             git push
           fi
