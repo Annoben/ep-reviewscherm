@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-09T22:53:32.126Z",
+  "updated": "2026-07-10T10:38:29.482Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,3",
-        "count": "554",
+        "count": "553",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
-        "count": "184",
-        "reviewText": "Het was een heel fijn verblijf, personeel is erg vriendelijk en de ligging is perfect. Ik ga hier zeker nog eens terugkomen!",
-        "reviewDate": "9 juli 2026"
+        "count": "185",
+        "reviewText": "Wat een mooi park! We verbleven in een supermooie, leuk ingerichte L-cube woning met een fijn terras. De schoonmaak had wel wat beter gekund. Het park zelf was nagenoeg volgeboekt maar daar merk je…",
+        "reviewDate": "10 juli 2026"
       },
       "special": {
         "score": "7,9",
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,3",
-        "count": "330",
+        "count": "331",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1023",
+        "count": "1019",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "674",
+        "count": "675",
         "reviewText": null,
         "reviewDate": null
       },
