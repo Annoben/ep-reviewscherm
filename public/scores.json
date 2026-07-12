@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T15:42:32.519Z",
+  "updated": "2026-07-12T20:09:26.587Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -10,9 +10,9 @@
       },
       "zoover": {
         "score": "8,6",
-        "count": "185",
-        "reviewText": "Wat een mooi park! We verbleven in een supermooie, leuk ingerichte L-cube woning met een fijn terras. De schoonmaak had wel wat beter gekund. Het park zelf was nagenoeg volgeboekt maar daar merk je…",
-        "reviewDate": "10 juli 2026"
+        "count": "186",
+        "reviewText": "Heerlijk weekend gehad met vriendinnen in Maasduinen. We verbleven in de Cube Magnifique woning, deze is goed geoutilleerd en heeft fijne bedden. De ligging van het huis is erg mooi, aan de zwemvij…",
+        "reviewDate": "12 juli 2026"
       },
       "special": {
         "score": "7,9",
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,1",
-        "count": "573",
+        "count": "574",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "679",
+        "count": "680",
         "reviewText": null,
         "reviewDate": null
       },
