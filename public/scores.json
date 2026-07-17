@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T20:13:42.962Z",
+  "updated": "2026-07-17T23:12:39.683Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -55,8 +55,8 @@
         "reviewDate": "1 april 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "39",
+        "score": "8,0",
+        "count": "40",
         "reviewText": null,
         "reviewDate": null
       }
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "576",
+        "count": "577",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "384",
         "reviewText": null,
         "reviewDate": null
       }
@@ -155,8 +155,8 @@
         "reviewDate": "3 september 2025"
       },
       "special": {
-        "score": "8,1",
-        "count": "78",
+        "score": "8,2",
+        "count": "76",
         "reviewText": null,
         "reviewDate": null
       }
@@ -175,8 +175,8 @@
         "reviewDate": "11 juli 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "87",
+        "score": "8,0",
+        "count": "91",
         "reviewText": null,
         "reviewDate": null
       }
