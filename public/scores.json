@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-18T06:32:08.483Z",
+  "updated": "2026-07-18T10:53:19.582Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,3",
+        "count": "558",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "678",
+        "count": "677",
         "reviewText": null,
         "reviewDate": null
       },
@@ -155,8 +155,8 @@
         "reviewDate": "3 september 2025"
       },
       "special": {
-        "score": "8,2",
-        "count": "76",
+        "score": "8,1",
+        "count": "78",
         "reviewText": null,
         "reviewDate": null
       }
