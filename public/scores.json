@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-19T07:57:28.196Z",
+  "updated": "2026-07-19T11:44:25.887Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,3",
-        "count": "561",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,6",
-        "count": "187",
-        "reviewText": "Erg gezellig gehad. Het was helaas erg warm in het huisje, zelfs met de gehuurde airco. De locatie is perfect, veel leuke dingen te doen in de buurt en heerlijke fiets en wandelmogelijkheden om de…",
-        "reviewDate": "15 juli 2026"
+        "score": "8,5",
+        "count": "188",
+        "reviewText": "Bij hoogzomer van boven 30 Gr konden in huisje 2 ramen niet open omdat ze kapot waren en onderdelen nog niet binnen. We konden een kleine mobiele airco huren van € 90. Dit huisje had bij deze tempe…",
+        "reviewDate": "19 juli 2026"
       },
       "special": {
         "score": "7,9",
@@ -49,10 +49,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "9,0",
-        "count": "119",
-        "reviewText": "We hebben een fantastische tijd gehad bij EuroParcs Hoge Kempen met ons gezin en onze jonge kinderen! Het park is echt prachtig aangelegd, heel netjes onderhouden en overal schoon en dat geeft mete…",
-        "reviewDate": "1 april 2026"
+        "score": "8,9",
+        "count": "120",
+        "reviewText": "Een prachtig verzorgd park met een leuke uitstraling en mooie accommodaties, gelegen in een prachtige fiets- en wandelomgeving. Erg vriendelijk en meedenkend personeel. Op de 1e dag van onze vakant…",
+        "reviewDate": "19 juli 2026"
       },
       "special": {
         "score": "8,0",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "677",
+        "count": "678",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "621",
+        "count": "622",
         "reviewText": null,
         "reviewDate": null
       },
