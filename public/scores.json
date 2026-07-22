@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T07:43:43.465Z",
+  "updated": "2026-07-22T13:12:34.345Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -10,9 +10,9 @@
       },
       "zoover": {
         "score": "8,5",
-        "count": "188",
-        "reviewText": "Bij hoogzomer van boven 30 Gr konden in huisje 2 ramen niet open omdat ze kapot waren en onderdelen nog niet binnen. We konden een kleine mobiele airco huren van € 90. Dit huisje had bij deze tempe…",
-        "reviewDate": "19 juli 2026"
+        "count": "189",
+        "reviewText": "Ik heb 7 nachten verbleven in een Tiny house. Het was een heerlijk huisje op een prettige locatie in een mooi park ✨️ Heb er erg van genoten en zou het iedereen aanraden 🥰 Tip met de hitte een ven…",
+        "reviewDate": "22 juli 2026"
       },
       "special": {
         "score": "7,9",
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,3",
-        "count": "328",
+        "count": "329",
         "reviewText": null,
         "reviewDate": null
       },
@@ -43,8 +43,8 @@
     },
     "hogekempen": {
       "booking": {
-        "score": "8,6",
-        "count": "1021",
+        "score": "8,7",
+        "count": "1022",
         "reviewText": null,
         "reviewDate": null
       },
