@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-23T07:45:17.111Z",
+  "updated": "2026-07-23T15:35:17.570Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,3",
+        "count": "567",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,15 +44,15 @@
     "hogekempen": {
       "booking": {
         "score": "8,7",
-        "count": "1024",
+        "count": "1025",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,9",
-        "count": "120",
-        "reviewText": "Een prachtig verzorgd park met een leuke uitstraling en mooie accommodaties, gelegen in een prachtige fiets- en wandelomgeving. Erg vriendelijk en meedenkend personeel. Op de 1e dag van onze vakant…",
-        "reviewDate": "19 juli 2026"
+        "score": "9,0",
+        "count": "122",
+        "reviewText": "Een geweldig verblijf gehad in het groene Zutendaal! Wij hebben enorm genoten van het verkennen van de geweldige omgeving van dit park met de (op het park gehuurde) bakfiets. Ga zeker ook eens lunc…",
+        "reviewDate": "23 juli 2026"
       },
       "special": {
         "score": "8,0",
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "624",
+        "count": "625",
         "reviewText": null,
         "reviewDate": null
       },
