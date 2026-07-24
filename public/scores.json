@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-24T06:38:38.439Z",
+  "updated": "2026-07-24T12:08:46.897Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,3",
+        "count": "566",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,5",
-        "count": "189",
-        "reviewText": "Ik heb 7 nachten verbleven in een Tiny house. Het was een heerlijk huisje op een prettige locatie in een mooi park ✨️ Heb er erg van genoten en zou het iedereen aanraden 🥰 Tip met de hitte een ven…",
-        "reviewDate": "22 juli 2026"
+        "score": "8,6",
+        "count": "193",
+        "reviewText": "Ontzettend leuk en mooi park! Het personeel is erg vriendelijk en gastvrij. We hebben heerlijk gegeten bij restaurant Sophia&apos;s. Op dinsdag is het restaurant gesloten, maar als alternatief staa…",
+        "reviewDate": "24 juli 2026"
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,7",
-        "count": "1022",
+        "count": "1024",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "577",
+        "count": "578",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "678",
+        "count": "679",
         "reviewText": null,
         "reviewDate": null
       },
