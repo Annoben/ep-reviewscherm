@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-28T07:59:29.395Z",
+  "updated": "2026-07-28T16:10:19.387Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,3",
-        "count": "569",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -17,14 +17,14 @@
       "special": {
         "score": "7,9",
         "count": "136",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Prachtige ligging in mooi natuurgebied. Om te wandelen en te fietsen. En ook leuke historische dorpjes aan de maas.",
+        "reviewDate": "30 juni 2026"
       }
     },
     "poortvanmaastricht": {
       "booking": {
         "score": "8,3",
-        "count": "327",
+        "count": "328",
         "reviewText": null,
         "reviewDate": null
       },
@@ -36,15 +36,15 @@
       },
       "special": {
         "score": "8,3",
-        "count": "44",
+        "count": "46",
         "reviewText": null,
-        "reviewDate": null
+        "reviewDate": "27 juni 2026"
       }
     },
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1025",
+        "count": "1026",
         "reviewText": null,
         "reviewDate": null
       },
@@ -57,8 +57,8 @@
       "special": {
         "score": "8,0",
         "count": "40",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Fijne ligging, rustig en ontzettend vriendelijk personeel. Met mooi weer fijn zwembad tegenover park. Goed ingericht huisje. Kortom heerlijk verblijf geweest!",
+        "reviewDate": "4 juni 2026"
       }
     },
     "kraaijenbergseplassen": {
@@ -77,8 +77,8 @@
       "special": {
         "score": "7,8",
         "count": "131",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Little bit more tidy can be when I arrive to the cottage. The main point in summer is air conditioner. In this cottages, there is no other way to normally live there. The last week of the stay was…",
+        "reviewDate": "30 juni 2026"
       }
     },
     "limburg": {
@@ -97,8 +97,8 @@
       "special": {
         "score": "7,8",
         "count": "384",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Ik denk dat als de grote warmte er niet was geweest het een zeer aangename tijd was geweest.",
+        "reviewDate": "30 juni 2026"
       }
     },
     "cadzand": {
@@ -117,8 +117,8 @@
       "special": {
         "score": "8,2",
         "count": "4",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Prachtig gelegen park, op loopafstand van Cadzand-Bad. Helaas geen faciliteiten dan behalve een receptie gebouw. Huisjes zeer netjes en van alles voorzien. Overkapping ook erg prettig. Elke slaapka…",
+        "reviewDate": "20 oktober 2025"
       }
     },
     "zeeuwseduinen": {
@@ -138,7 +138,7 @@
         "score": "8,5",
         "count": "1",
         "reviewText": null,
-        "reviewDate": null
+        "reviewDate": "15 maart 2026"
       }
     },
     "schoneveld": {
@@ -158,7 +158,7 @@
         "score": "8,1",
         "count": "78",
         "reviewText": null,
-        "reviewDate": null
+        "reviewDate": "23 juni 2026"
       }
     },
     "gulperberg": {
@@ -177,8 +177,8 @@
       "special": {
         "score": "8,0",
         "count": "91",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Genoten. Hadden wel veel geluk dat het huisje op een schaduwrijke plek stond.",
+        "reviewDate": "29 juni 2026"
       }
     }
   }
