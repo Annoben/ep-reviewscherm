@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T09:44:10.585Z",
+  "updated": "2026-07-30T16:11:25.408Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,15 +44,15 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1027",
+        "count": "1028",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "9,0",
-        "count": "123",
-        "reviewText": "We hebben genoten van onze 10 dagen vakantie. Park heel mooi opgezet. Schoon en rustig. Leuke kinder activiteiten en voldoende speelplekken en toestellen. Spraypark is ook echt leuk. Ook de mogelij…",
-        "reviewDate": "25 juli 2026"
+        "count": "124",
+        "reviewText": "Leuk trip, lekker gesellig",
+        "reviewDate": "30 juli 2026"
       },
       "special": {
         "score": "8,0",
@@ -77,14 +77,14 @@
       "special": {
         "score": "7,8",
         "count": "131",
-        "reviewText": "Little bit more tidy can be when I arrive to the cottage. The main point in summer is air conditioner. In this cottages, there is no other way to normally live there. The last week of the stay was…",
-        "reviewDate": "30 juni 2026"
+        "reviewText": "Een echte aanrader!!!!!!",
+        "reviewDate": "27 juli 2026"
       }
     },
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "678",
+        "count": "679",
         "reviewText": null,
         "reviewDate": null
       },
