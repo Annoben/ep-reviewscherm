@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-30T20:44:20.154Z",
+  "updated": "2026-07-31T08:12:44.403Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,3",
-        "count": "572",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -17,8 +17,8 @@
       "special": {
         "score": "7,9",
         "count": "136",
-        "reviewText": "Prachtige ligging in mooi natuurgebied. Om te wandelen en te fietsen. En ook leuke historische dorpjes aan de maas.",
-        "reviewDate": "30 juni 2026"
+        "reviewText": null,
+        "reviewDate": "28 juli 2026"
       }
     },
     "poortvanmaastricht": {
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "579",
+        "count": "577",
         "reviewText": null,
         "reviewDate": null
       },
@@ -158,13 +158,13 @@
         "score": "8,1",
         "count": "78",
         "reviewText": null,
-        "reviewDate": "23 juni 2026"
+        "reviewDate": "29 juli 2026"
       }
     },
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "622",
+        "count": "621",
         "reviewText": null,
         "reviewDate": null
       },
