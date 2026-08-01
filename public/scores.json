@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-01T06:47:43.574Z",
+  "updated": "2026-08-01T11:44:30.634Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "574",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
-        "count": "195",
-        "reviewText": "Superleuke ervaring! Topservice, lekker eten, mooi park!",
-        "reviewDate": "27 juli 2026"
+        "count": "196",
+        "reviewText": "Was top mooie tijd gehad leuke dingen voor de kinderen wij komen zeker terug volgend jaar",
+        "reviewDate": "1 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "578",
+        "count": "579",
         "reviewText": null,
         "reviewDate": null
       },
@@ -123,8 +123,8 @@
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": "8,9",
-        "count": "13",
+        "score": "9,0",
+        "count": "14",
         "reviewText": null,
         "reviewDate": null
       },
