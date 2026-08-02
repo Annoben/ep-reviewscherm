@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T23:43:55.495Z",
+  "updated": "2026-08-02T08:58:50.886Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -50,9 +50,9 @@
       },
       "zoover": {
         "score": "9,0",
-        "count": "124",
-        "reviewText": "Leuk trip, lekker gesellig",
-        "reviewDate": "30 juli 2026"
+        "count": "125",
+        "reviewText": "Wij hebben weer een ontzettende mooie ervaring gehad op Europarcs Hoge Kempen. Zeer goed ontvangen, huisje was nog niet schoon voor de early check-in dus ter compensatie het bedrag voor de early ch…",
+        "reviewDate": "2 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "677",
         "reviewText": null,
         "reviewDate": null
       },
