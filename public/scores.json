@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T16:32:23.286Z",
+  "updated": "2026-08-02T20:31:58.388Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1033",
+        "count": "1034",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "580",
+        "count": "581",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "677",
+        "count": "679",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "622",
+        "count": "623",
         "reviewText": null,
         "reviewDate": null
       },
