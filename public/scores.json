@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-03T17:18:25.619Z",
+  "updated": "2026-08-03T22:16:39.266Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "574",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,15 +44,15 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1033",
+        "count": "1034",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "9,0",
-        "count": "125",
-        "reviewText": "Wij hebben weer een ontzettende mooie ervaring gehad op Europarcs Hoge Kempen. Zeer goed ontvangen, huisje was nog niet schoon voor de early check-in dus ter compensatie het bedrag voor de early ch…",
-        "reviewDate": "2 augustus 2026"
+        "count": "126",
+        "reviewText": "Ik was met mijn kinderen van 2, 5 en 7 jaar oud en hebben samen een hele fijne tijd gehad, mede dankzij dit mooie kindvriendelijke park.",
+        "reviewDate": "3 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "579",
+        "count": "580",
         "reviewText": null,
         "reviewDate": null
       },
