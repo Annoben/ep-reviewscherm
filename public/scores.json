@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-03T22:16:39.266Z",
+  "updated": "2026-08-04T08:02:38.520Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": null,
-        "count": null,
+        "count": "574",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1034",
+        "count": "1033",
         "reviewText": null,
         "reviewDate": null
       },
@@ -63,10 +63,9 @@
     },
     "kraaijenbergseplassen": {
       "booking": {
-        "score": "8,0",
-        "count": "580",
-        "reviewText": null,
-        "reviewDate": null
+        "score": null,
+        "count": null,
+        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.booking.com/hotel/nl/europarcs-de-kraaijen"
       },
       "zoover": {
         "score": "8,9",
