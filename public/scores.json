@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T15:51:42.138Z",
+  "updated": "2026-08-05T20:45:20.292Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -50,9 +50,9 @@
       },
       "zoover": {
         "score": "8,9",
-        "count": "128",
-        "reviewText": "Een super verblijf gehad. Park was netjes, fijne huisjes en mooie ligging. Wel wat problemen met mieren in het huisje, maar dat werd snel opgelost. Zeker een aanrader en wij zouden terug komen!",
-        "reviewDate": "4 augustus 2026"
+        "count": "129",
+        "reviewText": "Het is een heel fijn park. Onze kinderen, 4,7,9 hebben zich er voor het tweede jaar heerlijk vermaakt. Animatie wordt aangeboden op twee manieren voor ieder wat wils. Genoeg te doen in de omgeving…",
+        "reviewDate": "5 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -163,8 +163,8 @@
     },
     "gulperberg": {
       "booking": {
-        "score": "8,3",
-        "count": "625",
+        "score": "8,4",
+        "count": "626",
         "reviewText": null,
         "reviewDate": null
       },
