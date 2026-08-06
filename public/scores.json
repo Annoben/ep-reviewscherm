@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-05T20:45:20.292Z",
+  "updated": "2026-08-06T00:15:02.954Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "574",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
