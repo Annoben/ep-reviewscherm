@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-06T10:17:35.461Z",
+  "updated": "2026-08-07T01:52:40.279Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
@@ -50,9 +50,9 @@
       },
       "zoover": {
         "score": "8,9",
-        "count": "129",
-        "reviewText": "Het is een heel fijn park. Onze kinderen, 4,7,9 hebben zich er voor het tweede jaar heerlijk vermaakt. Animatie wordt aangeboden op twee manieren voor ieder wat wils. Genoeg te doen in de omgeving…",
-        "reviewDate": "5 augustus 2026"
+        "count": "130",
+        "reviewText": "Mooi park in een mooie omgeving. Huisje was erg fijn, schoon en luxe. Animatie had veel verschillend aanbod, communicatie kon wat beter. Zwembad nabij was erg fijn. In omgeving veel te doen (blote…",
+        "reviewDate": "6 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "579",
+        "count": "580",
         "reviewText": null,
         "reviewDate": null
       },
@@ -131,8 +131,8 @@
       "zoover": {
         "score": "9,0",
         "count": "1",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
+        "reviewDate": "6 juli 2026"
       },
       "special": {
         "score": "8,5",
@@ -163,8 +163,8 @@
     },
     "gulperberg": {
       "booking": {
-        "score": "8,4",
-        "count": "626",
+        "score": "8,3",
+        "count": "625",
         "reviewText": null,
         "reviewDate": null
       },
