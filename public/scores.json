@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T01:52:40.279Z",
+  "updated": "2026-08-07T06:17:45.128Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -11,8 +11,8 @@
       "zoover": {
         "score": "8,6",
         "count": "196",
-        "reviewText": "Was top mooie tijd gehad leuke dingen voor de kinderen wij komen zeker terug volgend jaar",
-        "reviewDate": "1 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -44,15 +44,15 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1035",
+        "count": "1034",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,9",
         "count": "130",
-        "reviewText": "Mooi park in een mooie omgeving. Huisje was erg fijn, schoon en luxe. Animatie had veel verschillend aanbod, communicatie kon wat beter. Zwembad nabij was erg fijn. In omgeving veel te doen (blote…",
-        "reviewDate": "6 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
@@ -84,15 +84,15 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "680",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "9,0",
         "count": "36",
-        "reviewText": "Wij zijn hier een paar dagen geweest. Het was met één woord geweldig. Wij komen zekers weer terug. Ik voelde mijn eigen helemaal tot rust komen. Prachtige omgeving en geen massa is kassa. Je hebt e…",
-        "reviewDate": "23 december 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
