@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-07T20:01:46.383Z",
+  "updated": "2026-08-07T21:08:26.112Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "575",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
-        "count": "197",
+        "count": "198",
         "reviewText": "Was echt super! Ondanks dat het dicht bij huis was.",
         "reviewDate": "7 augustus 2026"
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1035",
+        "count": "1036",
         "reviewText": null,
         "reviewDate": null
       },
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
-        "reviewDate": "26 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -84,15 +84,15 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "682",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "9,0",
         "count": "36",
-        "reviewText": "Wij zijn hier een paar dagen geweest. Het was met één woord geweldig. Wij komen zekers weer terug. Ik voelde mijn eigen helemaal tot rust komen. Prachtige omgeving en geen massa is kassa. Je hebt e…",
-        "reviewDate": "23 december 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -170,7 +170,7 @@
       },
       "zoover": {
         "score": "7,3",
-        "count": "55",
+        "count": "56",
         "reviewText": "Huur een huisje MET airco anders is het in de zomer niet te doen. En zeker met hond is het niet te doen het werd binnen meer dan 40 graden. En koelde ook niet af. Helaas en was geen begrip voor. He…",
         "reviewDate": "11 juli 2026"
       },
