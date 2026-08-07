@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T06:17:45.128Z",
+  "updated": "2026-08-07T08:31:51.275Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -10,9 +10,9 @@
       },
       "zoover": {
         "score": "8,6",
-        "count": "196",
-        "reviewText": null,
-        "reviewDate": null
+        "count": "197",
+        "reviewText": "Was echt super! Ondanks dat het dicht bij huis was.",
+        "reviewDate": "7 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1034",
+        "count": "1035",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,15 +84,15 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "680",
+        "count": "681",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "9,0",
         "count": "36",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Wij zijn hier een paar dagen geweest. Het was met één woord geweldig. Wij komen zekers weer terug. Ik voelde mijn eigen helemaal tot rust komen. Prachtige omgeving en geen massa is kassa. Je hebt e…",
+        "reviewDate": "23 december 2025"
       },
       "special": {
         "score": "7,8",
