@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-07T21:08:26.112Z",
+  "updated": "2026-08-07T21:56:12.389Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
+        "reviewDate": "26 mei 2026"
       },
       "special": {
         "score": "7,8",
@@ -91,8 +91,8 @@
       "zoover": {
         "score": "9,0",
         "count": "36",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Wij zijn hier een paar dagen geweest. Het was met één woord geweldig. Wij komen zekers weer terug. Ik voelde mijn eigen helemaal tot rust komen. Prachtige omgeving en geen massa is kassa. Je hebt e…",
+        "reviewDate": "23 december 2025"
       },
       "special": {
         "score": "7,8",
