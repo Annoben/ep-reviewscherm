@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-08T05:56:52.852Z",
+  "updated": "2026-08-08T07:16:06.254Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "573",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "198",
-        "reviewText": "Was echt super! Ondanks dat het dicht bij huis was.",
-        "reviewDate": "7 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -51,8 +51,8 @@
       "zoover": {
         "score": "8,9",
         "count": "130",
-        "reviewText": "Mooi park in een mooie omgeving. Huisje was erg fijn, schoon en luxe. Animatie had veel verschillend aanbod, communicatie kon wat beter. Zwembad nabij was erg fijn. In omgeving veel te doen (blote…",
-        "reviewDate": "6 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
-        "reviewDate": "26 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "3,9",
         "count": "14",
-        "reviewText": "Slechte bedden, gehorige kamers, stof onder bedden,dekbedden erg stoffig. veel te kleine slaapkamer beneden.Zo ook boven Geen bergruimte, telkens de koffers op bed neerleggen om wat te pakken. Bove…",
-        "reviewDate": "17 augustus 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,2",
