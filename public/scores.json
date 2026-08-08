@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T15:46:40.571Z",
+  "updated": "2026-08-08T16:52:17.045Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -16,7 +16,7 @@
       },
       "special": {
         "score": "7,9",
-        "count": "133",
+        "count": "140",
         "reviewText": null,
         "reviewDate": "28 juli 2026"
       }
@@ -36,7 +36,7 @@
       },
       "special": {
         "score": "8,3",
-        "count": "44",
+        "count": "46",
         "reviewText": null,
         "reviewDate": "27 juni 2026"
       }
@@ -55,8 +55,8 @@
         "reviewDate": "6 augustus 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "39",
+        "score": "8,0",
+        "count": "41",
         "reviewText": null,
         "reviewDate": "26 juli 2026"
       }
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
@@ -175,8 +175,8 @@
         "reviewDate": "11 juli 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "87",
+        "score": "8,0",
+        "count": "94",
         "reviewText": null,
         "reviewDate": "25 juli 2026"
       }
