@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-08T13:57:54.927Z",
+  "updated": "2026-08-08T14:50:20.894Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "573",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "198",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Was echt super! Ondanks dat het dicht bij huis was.",
+        "reviewDate": "7 augustus 2026"
       },
       "special": {
         "score": "7,9",
