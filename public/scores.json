@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-09T05:58:26.248Z",
+  "updated": "2026-08-09T07:16:49.201Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,2",
-        "count": "573",
+        "count": "574",
         "reviewText": null,
         "reviewDate": null
       },
@@ -91,8 +91,8 @@
       "zoover": {
         "score": "8,6",
         "count": "37",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Gastvrijheid is ver te zoeken op dit park! Helaas is de vakantie niet gegaan zoals gewild en moesten wij zelf met dingen komen om het een &quot;soort&quot; van goed te maken. Animatie is heel slech…",
+        "reviewDate": "8 augustus 2026"
       },
       "special": {
         "score": "7,8",
