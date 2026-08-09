@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T21:48:52.163Z",
+  "updated": "2026-08-09T22:50:37.203Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -31,8 +31,8 @@
       "zoover": {
         "score": "8,0",
         "count": "36",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
+        "reviewDate": "17 mei 2026"
       },
       "special": {
         "score": "8,3",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1036",
+        "count": "1037",
         "reviewText": null,
         "reviewDate": null
       },
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
+        "reviewDate": "26 mei 2026"
       },
       "special": {
         "score": "7,8",
