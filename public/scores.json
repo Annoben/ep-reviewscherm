@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T09:57:11.775Z",
+  "updated": "2026-08-09T10:53:13.123Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -131,8 +131,8 @@
       "zoover": {
         "score": "9,0",
         "count": "1",
-        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
-        "reviewDate": "6 juli 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,5",
@@ -151,8 +151,8 @@
       "zoover": {
         "score": "5,0",
         "count": "14",
-        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
-        "reviewDate": "3 september 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,1",
