@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-09T02:29:20.029Z",
+  "updated": "2026-08-09T04:37:15.208Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
+        "score": null,
         "count": "573",
         "reviewText": null,
         "reviewDate": null
@@ -51,8 +51,8 @@
       "zoover": {
         "score": "8,9",
         "count": "130",
-        "reviewText": "Mooi park in een mooie omgeving. Huisje was erg fijn, schoon en luxe. Animatie had veel verschillend aanbod, communicatie kon wat beter. Zwembad nabij was erg fijn. In omgeving veel te doen (blote…",
-        "reviewDate": "6 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
