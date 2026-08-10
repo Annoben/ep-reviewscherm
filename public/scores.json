@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-10T13:45:14.194Z",
+  "updated": "2026-08-10T15:16:58.008Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "575",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
         "score": "7,9",
-        "count": "140",
+        "count": "133",
         "reviewText": null,
         "reviewDate": "28 juli 2026"
       }
@@ -36,7 +36,7 @@
       },
       "special": {
         "score": "8,3",
-        "count": "46",
+        "count": "44",
         "reviewText": null,
         "reviewDate": "27 juni 2026"
       }
@@ -55,8 +55,8 @@
         "reviewDate": null
       },
       "special": {
-        "score": "8,0",
-        "count": "41",
+        "score": "7,9",
+        "count": "39",
         "reviewText": null,
         "reviewDate": "26 juli 2026"
       }
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "391",
+        "count": "379",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
@@ -175,8 +175,8 @@
         "reviewDate": "11 juli 2026"
       },
       "special": {
-        "score": "8,0",
-        "count": "94",
+        "score": "7,9",
+        "count": "87",
         "reviewText": null,
         "reviewDate": "25 juli 2026"
       }
