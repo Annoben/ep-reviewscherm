@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-10T18:03:50.896Z",
+  "updated": "2026-08-10T19:17:31.526Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "583",
+        "count": "584",
         "reviewText": null,
         "reviewDate": null
       },
@@ -171,8 +171,8 @@
       "zoover": {
         "score": "7,3",
         "count": "56",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Huur een huisje MET airco anders is het in de zomer niet te doen. En zeker met hond is het niet te doen het werd binnen meer dan 40 graden. En koelde ook niet af. Helaas en was geen begrip voor. He…",
+        "reviewDate": "11 juli 2026"
       },
       "special": {
         "score": "8,0",
