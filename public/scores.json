@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T17:09:07.879Z",
+  "updated": "2026-08-10T18:03:50.896Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -11,12 +11,12 @@
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
         "score": "7,9",
-        "count": "133",
+        "count": "140",
         "reviewText": null,
         "reviewDate": "28 juli 2026"
       }
@@ -36,7 +36,7 @@
       },
       "special": {
         "score": "8,3",
-        "count": "44",
+        "count": "46",
         "reviewText": null,
         "reviewDate": "27 juni 2026"
       }
@@ -55,8 +55,8 @@
         "reviewDate": "10 augustus 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "39",
+        "score": "8,0",
+        "count": "41",
         "reviewText": null,
         "reviewDate": "26 juli 2026"
       }
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
@@ -171,12 +171,12 @@
       "zoover": {
         "score": "7,3",
         "count": "56",
-        "reviewText": "Huur een huisje MET airco anders is het in de zomer niet te doen. En zeker met hond is het niet te doen het werd binnen meer dan 40 graden. En koelde ook niet af. Helaas en was geen begrip voor. He…",
-        "reviewDate": "11 juli 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": "7,9",
-        "count": "87",
+        "score": "8,0",
+        "count": "94",
         "reviewText": null,
         "reviewDate": "25 juli 2026"
       }
