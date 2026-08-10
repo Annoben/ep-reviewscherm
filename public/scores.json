@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-10T15:16:58.008Z",
+  "updated": "2026-08-10T16:11:43.404Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
-        "reviewDate": "10 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
-        "count": "133",
+        "count": "140",
         "reviewText": null,
         "reviewDate": "28 juli 2026"
       }
@@ -31,12 +31,12 @@
       "zoover": {
         "score": "8,0",
         "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
-        "count": "44",
+        "count": "46",
         "reviewText": null,
         "reviewDate": "27 juni 2026"
       }
@@ -44,19 +44,19 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1037",
+        "count": "1039",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "9,0",
         "count": "132",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Heerlijk ruim park met fijne huisjes. Goede snelle service als er iets in het huis was. Prachtige omgeving om te fietsen.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "39",
+        "score": "8,0",
+        "count": "41",
         "reviewText": null,
         "reviewDate": "26 juli 2026"
       }
@@ -91,12 +91,12 @@
       "zoover": {
         "score": "8,6",
         "count": "37",
-        "reviewText": "Gastvrijheid is ver te zoeken op dit park! Helaas is de vakantie niet gegaan zoals gewild en moesten wij zelf met dingen komen om het een &quot;soort&quot; van goed te maken. Animatie is heel slech…",
-        "reviewDate": "8 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
@@ -175,8 +175,8 @@
         "reviewDate": "11 juli 2026"
       },
       "special": {
-        "score": "7,9",
-        "count": "87",
+        "score": "8,0",
+        "count": "94",
         "reviewText": null,
         "reviewDate": "25 juli 2026"
       }
