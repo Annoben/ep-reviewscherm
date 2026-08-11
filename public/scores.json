@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-11T07:37:53.599Z",
+  "updated": "2026-08-11T09:14:17.257Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "575",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -24,15 +24,15 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,3",
-        "count": "325",
+        "count": "324",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,0",
         "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
@@ -51,8 +51,8 @@
       "zoover": {
         "score": "9,0",
         "count": "132",
-        "reviewText": "Heerlijk ruim park met fijne huisjes. Goede snelle service als er iets in het huis was. Prachtige omgeving om te fietsen.",
-        "reviewDate": "10 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
@@ -84,15 +84,15 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "682",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "37",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Gastvrijheid is ver te zoeken op dit park! Helaas is de vakantie niet gegaan zoals gewild en moesten wij zelf met dingen komen om het een &quot;soort&quot; van goed te maken. Animatie is heel slech…",
+        "reviewDate": "8 augustus 2026"
       },
       "special": {
         "score": "7,8",
