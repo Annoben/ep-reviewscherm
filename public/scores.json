@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-11T19:20:44.487Z",
+  "updated": "2026-08-11T21:04:33.184Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
@@ -49,10 +49,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "9,0",
-        "count": "132",
-        "reviewText": "Heerlijk ruim park met fijne huisjes. Goede snelle service als er iets in het huis was. Prachtige omgeving om te fietsen.",
-        "reviewDate": "10 augustus 2026"
+        "score": "8,8",
+        "count": "133",
+        "reviewText": "Wij zijn hier een weekje geweest in het hoogseizoen in augustus. - tijdig geboekt voor ruim €1600, een paar weken voor vertrek gezien dat zelfs duurdere en grotere huisjes de helft van de prijs zij…",
+        "reviewDate": "11 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "682",
+        "count": "683",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,15 +164,15 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "626",
+        "count": "627",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "7,3",
         "count": "56",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Huur een huisje MET airco anders is het in de zomer niet te doen. En zeker met hond is het niet te doen het werd binnen meer dan 40 graden. En koelde ook niet af. Helaas en was geen begrip voor. He…",
+        "reviewDate": "11 juli 2026"
       },
       "special": {
         "score": "8,0",
