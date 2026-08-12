@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-12T06:42:44.526Z",
+  "updated": "2026-08-12T08:39:40.201Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1039",
+        "count": "1040",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "585",
+        "count": "584",
         "reviewText": null,
         "reviewDate": null
       },
@@ -91,8 +91,8 @@
       "zoover": {
         "score": "8,6",
         "count": "37",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Gastvrijheid is ver te zoeken op dit park! Helaas is de vakantie niet gegaan zoals gewild en moesten wij zelf met dingen komen om het een &quot;soort&quot; van goed te maken. Animatie is heel slech…",
+        "reviewDate": "8 augustus 2026"
       },
       "special": {
         "score": "7,8",
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "3,9",
         "count": "14",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Slechte bedden, gehorige kamers, stof onder bedden,dekbedden erg stoffig. veel te kleine slaapkamer beneden.Zo ook boven Geen bergruimte, telkens de koffers op bed neerleggen om wat te pakken. Bove…",
+        "reviewDate": "17 augustus 2025"
       },
       "special": {
         "score": "8,2",
@@ -164,15 +164,15 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "627",
+        "count": "625",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "7,3",
         "count": "56",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Huur een huisje MET airco anders is het in de zomer niet te doen. En zeker met hond is het niet te doen het werd binnen meer dan 40 graden. En koelde ook niet af. Helaas en was geen begrip voor. He…",
+        "reviewDate": "11 juli 2026"
       },
       "special": {
         "score": "8,0",
