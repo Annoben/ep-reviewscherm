@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T08:39:40.201Z",
+  "updated": "2026-08-12T10:20:07.769Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1040",
+        "count": "1039",
         "reviewText": null,
         "reviewDate": null
       },
@@ -135,8 +135,8 @@
         "reviewDate": "6 juli 2026"
       },
       "special": {
-        "score": "8,5",
-        "count": "1",
+        "score": "9,0",
+        "count": "2",
         "reviewText": "Het huis is precies zoals beschreven op de website. Alles wat je nodig hebt is aanwezig. Een zeer schoon en goed onderhouden complex. Ondanks het hoogseizoen erg rustig. Het enige punt van kritiek…",
         "reviewDate": "7 juli 2026"
       }
