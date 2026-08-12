@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-12T13:47:40.536Z",
+  "updated": "2026-08-12T15:14:56.029Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
+        "score": "8,2",
         "count": "575",
         "reviewText": null,
         "reviewDate": null
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
-        "reviewDate": "26 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "683",
+        "count": "680",
         "reviewText": null,
         "reviewDate": null
       },
