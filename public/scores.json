@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-12T11:59:48.285Z",
+  "updated": "2026-08-12T13:47:40.536Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": null,
-        "count": null,
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
+        "reviewDate": "26 mei 2026"
       },
       "special": {
         "score": "7,8",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "680",
+        "count": "683",
         "reviewText": null,
         "reviewDate": null
       },
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "3,9",
         "count": "14",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Slechte bedden, gehorige kamers, stof onder bedden,dekbedden erg stoffig. veel te kleine slaapkamer beneden.Zo ook boven Geen bergruimte, telkens de koffers op bed neerleggen om wat te pakken. Bove…",
+        "reviewDate": "17 augustus 2025"
       },
       "special": {
         "score": "8,2",
@@ -131,8 +131,8 @@
       "zoover": {
         "score": "9,0",
         "count": "1",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
+        "reviewDate": "6 juli 2026"
       },
       "special": {
         "score": "9,0",
@@ -151,8 +151,8 @@
       "zoover": {
         "score": "5,0",
         "count": "14",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
+        "reviewDate": "3 september 2025"
       },
       "special": {
         "score": "8,1",
