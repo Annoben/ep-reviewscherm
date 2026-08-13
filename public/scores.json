@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-13T02:48:15.172Z",
+  "updated": "2026-08-13T05:05:35.522Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "575",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -31,8 +31,8 @@
       "zoover": {
         "score": "8,0",
         "count": "36",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
+        "reviewDate": "17 mei 2026"
       },
       "special": {
         "score": "8,3",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1039",
+        "count": "1038",
         "reviewText": null,
         "reviewDate": null
       },
