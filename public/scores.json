@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T11:57:53.819Z",
+  "updated": "2026-08-14T13:43:54.258Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "587",
+        "count": "588",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "625",
+        "count": "624",
         "reviewText": null,
         "reviewDate": null
       },
