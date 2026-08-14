@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-14T17:12:03.584Z",
+  "updated": "2026-08-14T18:07:05.765Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
+        "score": null,
         "count": "578",
         "reviewText": null,
         "reviewDate": null
@@ -50,9 +50,9 @@
       },
       "zoover": {
         "score": "8,8",
-        "count": "137",
-        "reviewText": "Wij sliepen in een safaritent, het was een leuk onderkomen alleen het schoonmaken kan beter. Veel stof op randen boven de 1.50m en vuil op de vloer toen we aankwamen. Verder was het een leuk verblijf.",
-        "reviewDate": "14 augustus 2026"
+        "count": "138",
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
