@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-14T08:37:43.045Z",
+  "updated": "2026-08-14T10:17:02.888Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
+        "score": null,
         "count": "578",
         "reviewText": null,
         "reviewDate": null
@@ -50,8 +50,8 @@
       },
       "zoover": {
         "score": "8,8",
-        "count": "136",
-        "reviewText": "Wij genoten van ons verblijf in Europarcs in de natuur",
+        "count": "137",
+        "reviewText": "Wij sliepen in een safaritent, het was een leuk onderkomen alleen het schoonmaken kan beter. Veel stof op randen boven de 1.50m en vuil op de vloer toen we aankwamen. Verder was het een leuk verblijf.",
         "reviewDate": "14 augustus 2026"
       },
       "special": {
@@ -151,8 +151,8 @@
       "zoover": {
         "score": "5,0",
         "count": "14",
-        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
-        "reviewDate": "3 september 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,1",
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "624",
+        "count": "625",
         "reviewText": null,
         "reviewDate": null
       },
