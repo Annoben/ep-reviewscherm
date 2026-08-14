@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-14T18:07:05.765Z",
+  "updated": "2026-08-14T19:14:38.017Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
+        "score": "8,2",
         "count": "578",
         "reviewText": null,
         "reviewDate": null
@@ -49,10 +49,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,8",
-        "count": "138",
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,7",
+        "count": "139",
+        "reviewText": "We hebben een paar heerlijk, zonnige, ontspannen dagen gehad in België. Vriendelijk, behulpzaam personeel en de accomodatie was modern, ruim, schoon en van alle gemakken voorzien. We zouden hier ze…",
+        "reviewDate": "14 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "682",
+        "count": "683",
         "reviewText": null,
         "reviewDate": null
       },
