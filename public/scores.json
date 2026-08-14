@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T22:41:33.805Z",
+  "updated": "2026-08-14T23:37:34.791Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -11,8 +11,8 @@
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
-        "reviewDate": "10 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1041",
+        "count": "1038",
         "reviewText": null,
         "reviewDate": null
       },
