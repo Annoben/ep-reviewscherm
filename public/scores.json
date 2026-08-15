@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-15T06:58:29.790Z",
+  "updated": "2026-08-15T07:44:48.882Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "578",
         "reviewText": null,
         "reviewDate": null
       },
@@ -51,8 +51,8 @@
       "zoover": {
         "score": "8,7",
         "count": "139",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "We hebben een paar heerlijk, zonnige, ontspannen dagen gehad in België. Vriendelijk, behulpzaam personeel en de accomodatie was modern, ruim, schoon en van alle gemakken voorzien. We zouden hier ze…",
+        "reviewDate": "14 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "589",
+        "count": "590",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "3,9",
         "count": "14",
-        "reviewText": "Slechte bedden, gehorige kamers, stof onder bedden,dekbedden erg stoffig. veel te kleine slaapkamer beneden.Zo ook boven Geen bergruimte, telkens de koffers op bed neerleggen om wat te pakken. Bove…",
-        "reviewDate": "17 augustus 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,2",
@@ -131,8 +131,8 @@
       "zoover": {
         "score": "9,0",
         "count": "1",
-        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
-        "reviewDate": "6 juli 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "9,0",
@@ -151,8 +151,8 @@
       "zoover": {
         "score": "5,0",
         "count": "14",
-        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
-        "reviewDate": "3 september 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,1",
