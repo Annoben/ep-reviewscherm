@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-14T23:37:34.791Z",
+  "updated": "2026-08-15T01:49:53.544Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "578",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1038",
+        "count": "1041",
         "reviewText": null,
         "reviewDate": null
       },
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
-        "reviewDate": "26 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "684",
+        "count": "681",
         "reviewText": null,
         "reviewDate": null
       },
