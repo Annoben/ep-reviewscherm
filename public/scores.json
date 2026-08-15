@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-15T09:41:10.680Z",
+  "updated": "2026-08-15T10:39:57.261Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "578",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
-        "reviewDate": "10 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "684",
+        "count": "681",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
@@ -151,8 +151,8 @@
       "zoover": {
         "score": "5,0",
         "count": "14",
-        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
-        "reviewDate": "3 september 2025"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,1",
