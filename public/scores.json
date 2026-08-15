@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-15T13:44:29.380Z",
+  "updated": "2026-08-15T14:39:33.590Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "578",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1039",
+        "count": "1040",
         "reviewText": null,
         "reviewDate": null
       },
