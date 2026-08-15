@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T14:39:33.590Z",
+  "updated": "2026-08-15T15:35:19.507Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -51,8 +51,8 @@
       "zoover": {
         "score": "8,7",
         "count": "140",
-        "reviewText": "We hebben een paar heerlijk, zonnige, ontspannen dagen gehad in België. Vriendelijk, behulpzaam personeel en de accomodatie was modern, ruim, schoon en van alle gemakken voorzien. We zouden hier ze…",
-        "reviewDate": "14 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
