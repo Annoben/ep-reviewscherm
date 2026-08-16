@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-16T07:45:57.864Z",
+  "updated": "2026-08-16T08:47:22.476Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "578",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
-        "reviewDate": "10 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -49,10 +49,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,7",
-        "count": "140",
-        "reviewText": "We hebben een paar heerlijk, zonnige, ontspannen dagen gehad in België. Vriendelijk, behulpzaam personeel en de accomodatie was modern, ruim, schoon en van alle gemakken voorzien. We zouden hier ze…",
-        "reviewDate": "14 augustus 2026"
+        "score": "8,8",
+        "count": "141",
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "7,9",
-        "count": "591",
+        "count": "592",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "680",
+        "count": "681",
         "reviewText": null,
         "reviewDate": null
       },
