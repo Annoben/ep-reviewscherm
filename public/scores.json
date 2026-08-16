@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T03:13:32.040Z",
+  "updated": "2026-08-16T04:00:40.391Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -31,8 +31,8 @@
       "zoover": {
         "score": "8,0",
         "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1041",
+        "count": "1038",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "680",
         "reviewText": null,
         "reviewDate": null
       },
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "3,9",
         "count": "14",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Slechte bedden, gehorige kamers, stof onder bedden,dekbedden erg stoffig. veel te kleine slaapkamer beneden.Zo ook boven Geen bergruimte, telkens de koffers op bed neerleggen om wat te pakken. Bove…",
+        "reviewDate": "17 augustus 2025"
       },
       "special": {
         "score": "8,2",
