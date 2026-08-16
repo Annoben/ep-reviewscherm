@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-16T10:40:53.524Z",
+  "updated": "2026-08-16T11:34:19.756Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,2",
-        "count": "578",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,6",
-        "count": "199",
+        "score": "8,7",
+        "count": "200",
         "reviewText": null,
         "reviewDate": null
       },
@@ -31,8 +31,8 @@
       "zoover": {
         "score": "8,0",
         "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
@@ -171,8 +171,8 @@
       "zoover": {
         "score": "7,4",
         "count": "57",
-        "reviewText": "T.o.v. 2025 zagen wij wat achteruitgang. Douches niet heel schoon. Openingstijden aangepast. Zwembad 18:00 dicht terwijl het dan erg warm was. (Nieuwe regelgeving openlucht baden🤔) Restaurant 20:0…",
-        "reviewDate": "13 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
