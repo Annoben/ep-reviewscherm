@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-16T05:44:18.894Z",
+  "updated": "2026-08-16T06:59:51.492Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "578",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
+        "reviewDate": "10 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "680",
         "reviewText": null,
         "reviewDate": null
       },
