@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T09:42:46.300Z",
+  "updated": "2026-08-16T10:40:53.524Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -11,8 +11,8 @@
       "zoover": {
         "score": "8,6",
         "count": "199",
-        "reviewText": "Zwemmen, sup huren, sport en spel, leuke workshops zoals Segway rijden. Beide kinderen (7 en 10) hebben zich enorm vermaakt.",
-        "reviewDate": "10 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "681",
+        "count": "680",
         "reviewText": null,
         "reviewDate": null
       },
@@ -171,8 +171,8 @@
       "zoover": {
         "score": "7,4",
         "count": "57",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "T.o.v. 2025 zagen wij wat achteruitgang. Douches niet heel schoon. Openingstijden aangepast. Zwembad 18:00 dicht terwijl het dan erg warm was. (Nieuwe regelgeving openlucht baden🤔) Restaurant 20:0…",
+        "reviewDate": "13 augustus 2026"
       },
       "special": {
         "score": "8,0",
