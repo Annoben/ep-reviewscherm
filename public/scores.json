@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-16T19:33:53.349Z",
+  "updated": "2026-08-16T20:38:40.408Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,2",
-        "count": "579",
+        "count": "580",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,7",
         "count": "200",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Een prachtig groot park van waaruit je, qua ligging, alle kanten op kan. Dit park is voorzien van verschillende accomodaties zoals een wasgelegenheid, zwembad, zwemvijver, restaurant en een parkwin…",
+        "reviewDate": "16 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
+        "reviewDate": "26 mei 2026"
       },
       "special": {
         "score": "7,8",
