@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T08:03:16.794Z",
+  "updated": "2026-08-17T09:01:28.020Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -11,8 +11,8 @@
       "zoover": {
         "score": "8,7",
         "count": "200",
-        "reviewText": "Een prachtig groot park van waaruit je, qua ligging, alle kanten op kan. Dit park is voorzien van verschillende accomodaties zoals een wasgelegenheid, zwembad, zwemvijver, restaurant en een parkwin…",
-        "reviewDate": "16 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1037",
+        "count": "1038",
         "reviewText": null,
         "reviewDate": null
       },
@@ -71,8 +71,8 @@
       "zoover": {
         "score": "8,9",
         "count": "22",
-        "reviewText": "Mooi park, mooi aangelegd wel weinig privacy. Huisjes dicht bij elkaar, veel ramen niet overal gordijnen. Heel warm in huisje (33 graden), plat metalen dak weinig ramen die open kunnen en zonder ho…",
-        "reviewDate": "26 mei 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -123,8 +123,8 @@
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": "9,0",
-        "count": "14",
+        "score": "9,1",
+        "count": "15",
         "reviewText": null,
         "reviewDate": null
       },
