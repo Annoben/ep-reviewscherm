@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T23:34:34.238Z",
+  "updated": "2026-08-17T01:55:35.578Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,6",
-        "count": "1039",
+        "count": "1037",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,15 +84,15 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "682",
+        "count": "683",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "37",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Gastvrijheid is ver te zoeken op dit park! Helaas is de vakantie niet gegaan zoals gewild en moesten wij zelf met dingen komen om het een &quot;soort&quot; van goed te maken. Animatie is heel slech…",
+        "reviewDate": "8 augustus 2026"
       },
       "special": {
         "score": "7,8",
