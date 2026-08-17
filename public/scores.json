@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-17T18:58:15.867Z",
+  "updated": "2026-08-17T19:42:35.970Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "582",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,7",
         "count": "200",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Een prachtig groot park van waaruit je, qua ligging, alle kanten op kan. Dit park is voorzien van verschillende accomodaties zoals een wasgelegenheid, zwembad, zwemvijver, restaurant en een parkwin…",
+        "reviewDate": "16 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -51,8 +51,8 @@
       "zoover": {
         "score": "8,8",
         "count": "142",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Voor de tweede keer verbleven we hier, weliswaar nu in een ander soort huisje wat toch wat te klein uit viel en met de weersomstandigheden toch wat warm zonder airco en geen parasol of andere besch…",
+        "reviewDate": "17 augustus 2026"
       },
       "special": {
         "score": "8,0",
@@ -63,16 +63,16 @@
     },
     "kraaijenbergseplassen": {
       "booking": {
-        "score": "7,9",
-        "count": "593",
+        "score": "8,0",
+        "count": "594",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,9",
-        "count": "22",
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,7",
+        "count": "23",
+        "reviewText": "Grote villa met alle gemakken. Veel ruimte, ook er omheen. Vlakbij het water. We hadden 4 sups mee, heerlijk gezwommen in schoon helder water. Bootje gehuurd. Prima vertoeven!",
+        "reviewDate": "17 augustus 2026"
       },
       "special": {
         "score": "7,8",
@@ -84,15 +84,15 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "683",
+        "count": "684",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "37",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Gastvrijheid is ver te zoeken op dit park! Helaas is de vakantie niet gegaan zoals gewild en moesten wij zelf met dingen komen om het een &quot;soort&quot; van goed te maken. Animatie is heel slech…",
+        "reviewDate": "8 augustus 2026"
       },
       "special": {
         "score": "7,8",
@@ -131,8 +131,8 @@
       "zoover": {
         "score": "9,0",
         "count": "1",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
+        "reviewDate": "6 juli 2026"
       },
       "special": {
         "score": "9,0",
@@ -151,8 +151,8 @@
       "zoover": {
         "score": "5,0",
         "count": "14",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "Het huis was zoals beschreven. Schoon, de keuken was zeer goed uitgerust en klaar om in te trekken bij aankomst om 12.00 uur. Het park en het strand zijn erg schoon en honden zijn welkom. Dit is on…",
+        "reviewDate": "3 september 2025"
       },
       "special": {
         "score": "8,1",
@@ -171,8 +171,8 @@
       "zoover": {
         "score": "7,4",
         "count": "57",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "T.o.v. 2025 zagen wij wat achteruitgang. Douches niet heel schoon. Openingstijden aangepast. Zwembad 18:00 dicht terwijl het dan erg warm was. (Nieuwe regelgeving openlucht baden🤔) Restaurant 20:0…",
+        "reviewDate": "13 augustus 2026"
       },
       "special": {
         "score": "8,0",
