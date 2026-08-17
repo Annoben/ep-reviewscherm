@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-17T20:44:21.757Z",
+  "updated": "2026-08-17T21:41:51.865Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,2",
-        "count": "582",
+        "count": "583",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,7",
         "count": "200",
-        "reviewText": "Een prachtig groot park van waaruit je, qua ligging, alle kanten op kan. Dit park is voorzien van verschillende accomodaties zoals een wasgelegenheid, zwembad, zwemvijver, restaurant en een parkwin…",
-        "reviewDate": "16 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "684",
+        "count": "685",
         "reviewText": null,
         "reviewDate": null
       },
