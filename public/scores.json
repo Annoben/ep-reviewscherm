@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-18T19:42:42.073Z",
+  "updated": "2026-08-18T20:41:13.375Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "585",
         "reviewText": null,
         "reviewDate": null
       },
@@ -50,8 +50,8 @@
       },
       "zoover": {
         "score": "8,8",
-        "count": "143",
-        "reviewText": "Wij verbleven met ons kindje in de babycottage. Over het algemeen waren we echt super tevreden! Zag er super schoon uit, alle basis voorzieningen voor ons kleintje waren ook aanwezig en daarmee ver…",
+        "count": "144",
+        "reviewText": "We hebben een heel fijn weekend gehad op een ontzettend leuk park. Kinderen hebben heerlijk genoten waardoor wij als ouders ook ;)",
         "reviewDate": "18 augustus 2026"
       },
       "special": {
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
