@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-18T17:44:04.211Z",
+  "updated": "2026-08-18T18:58:18.440Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "585",
         "reviewText": null,
         "reviewDate": null
       },
@@ -50,9 +50,9 @@
       },
       "zoover": {
         "score": "8,8",
-        "count": "142",
-        "reviewText": "Voor de tweede keer verbleven we hier, weliswaar nu in een ander soort huisje wat toch wat te klein uit viel en met de weersomstandigheden toch wat warm zonder airco en geen parasol of andere besch…",
-        "reviewDate": "17 augustus 2026"
+        "count": "143",
+        "reviewText": "Wij verbleven met ons kindje in de babycottage. Over het algemeen waren we echt super tevreden! Zag er super schoon uit, alle basis voorzieningen voor ons kleintje waren ook aanwezig en daarmee ver…",
+        "reviewDate": "18 augustus 2026"
       },
       "special": {
         "score": "8,0",
