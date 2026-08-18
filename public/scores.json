@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-18T11:41:43.506Z",
+  "updated": "2026-08-18T13:08:12.184Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "585",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "684",
+        "count": "685",
         "reviewText": null,
         "reviewDate": null
       },
@@ -130,9 +130,9 @@
       },
       "zoover": {
         "score": "9,0",
-        "count": "1",
-        "reviewText": "Heel erg leuk weekend met familie gehad. De omgeving is prachtig! Tip om fietsen te huren",
-        "reviewDate": "6 juli 2026"
+        "count": "2",
+        "reviewText": "Meer dan fijne vakantiebestemming. Rustig en kleinschalig park met een persoonlijke benadering. Uitstekende accommodaties, goed onderhouden park en direct naast het strand en op korte afstand van d…",
+        "reviewDate": "18 augustus 2026"
       },
       "special": {
         "score": "9,0",
