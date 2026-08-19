@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:58:20.636Z",
+  "updated": "2026-08-19T14:58:41.492Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -124,7 +124,7 @@
     "zeeuwseduinen": {
       "booking": {
         "score": "9,1",
-        "count": "15",
+        "count": "16",
         "reviewText": null,
         "reviewDate": null
       },
