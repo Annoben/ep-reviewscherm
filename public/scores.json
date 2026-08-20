@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-20T11:43:15.584Z",
+  "updated": "2026-08-20T13:11:40.881Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,2",
-        "count": "582",
+        "count": "583",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "622",
+        "count": "623",
         "reviewText": null,
         "reviewDate": null
       },
