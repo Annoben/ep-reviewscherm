@@ -1,11 +1,12 @@
 {
-  "updated": "2026-08-20T08:56:56.725Z",
+  "updated": "2026-08-20T09:50:39.319Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.$$eval: Execution context was destroyed, most likely because of a navigation"
+        "score": "8,2",
+        "count": "582",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": "8,7",
