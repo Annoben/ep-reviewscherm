@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T08:48:07.209Z",
+  "updated": "2026-08-22T09:43:00.320Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -9,10 +9,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,7",
+        "count": "201",
+        "reviewText": "Heel mooi domein, rustig gelegen, veel wandelroutes, restaurant duurt lang voor je je eten krijgt.",
+        "reviewDate": "21 augustus 2026"
       },
       "special": {
         "score": "7,9",
