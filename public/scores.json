@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-23T19:35:39.757Z",
+  "updated": "2026-08-23T20:40:08.122Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
+        "score": "8,1",
         "count": "585",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,7",
+        "count": "201",
+        "reviewText": "Heel mooi domein, rustig gelegen, veel wandelroutes, restaurant duurt lang voor je je eten krijgt.",
+        "reviewDate": "21 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,5",
-        "count": "1045",
+        "count": "1046",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
