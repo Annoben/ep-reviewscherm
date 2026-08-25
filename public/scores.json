@@ -1,12 +1,11 @@
 {
-  "updated": "2026-08-24T23:35:53.084Z",
+  "updated": "2026-08-25T01:52:55.557Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": null,
         "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "error": "page.$$eval: Execution context was destroyed, most likely because of a navigation"
       },
       "zoover": {
         "score": "8,7",
@@ -43,8 +42,8 @@
     },
     "hogekempen": {
       "booking": {
-        "score": "8,5",
-        "count": "1053",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +63,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "593",
+        "count": "592",
         "reviewText": null,
         "reviewDate": null
       },
@@ -123,8 +122,8 @@
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": "9,2",
-        "count": "16",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
