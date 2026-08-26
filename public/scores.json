@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-26T01:58:59.286Z",
+  "updated": "2026-08-26T03:18:56.920Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,1",
+        "score": null,
         "count": "586",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,7",
-        "count": "201",
-        "reviewText": "Heel mooi domein, rustig gelegen, veel wandelroutes, restaurant duurt lang voor je je eten krijgt.",
-        "reviewDate": "21 augustus 2026"
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "684",
+        "count": "683",
         "reviewText": null,
         "reviewDate": null
       },
