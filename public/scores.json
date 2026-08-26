@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-26T03:18:56.920Z",
+  "updated": "2026-08-26T04:56:57.605Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": "586",
+        "score": "8,1",
+        "count": "587",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,7",
+        "count": "201",
+        "reviewText": "Heel mooi domein, rustig gelegen, veel wandelroutes, restaurant duurt lang voor je je eten krijgt.",
+        "reviewDate": "21 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,5",
-        "count": "1054",
+        "count": "1056",
         "reviewText": null,
         "reviewDate": null
       },
