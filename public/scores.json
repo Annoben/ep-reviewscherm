@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-30T06:41:03.991Z",
+  "updated": "2026-08-30T12:54:31.404Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "593",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,7",
-        "count": "202",
-        "reviewText": "We hadden een mooi huisje aan de rand van het park. Heerlijk rustig. Het park was schoon. De milieustraat stond niet goed aangegeven. De milieustraat stond op het bord anders aangegeven dan waar he…",
-        "reviewDate": "26 augustus 2026"
+        "score": "8,6",
+        "count": "203",
+        "reviewText": "Ideale overnachtingsplaats voor als je naar Toverland toe gaat. Het zit 20 min rijden ervandaan en je kunt er heerlijk tot rust komen in de natuurrijke omgeving. Alleen jammer dat er geen animatie…",
+        "reviewDate": "30 augustus 2026"
       },
       "special": {
         "score": "7,9",
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "622",
+        "count": "621",
         "reviewText": null,
         "reviewDate": null
       },
