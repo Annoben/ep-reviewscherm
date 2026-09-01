@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T14:54:43.059Z",
+  "updated": "2026-09-01T18:31:43.869Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "688",
+        "count": "689",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
         "reviewDate": "24 juli 2026"
       }
