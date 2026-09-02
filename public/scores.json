@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-02T09:39:26.697Z",
+  "updated": "2026-09-02T14:30:25.045Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "595",
         "reviewText": null,
         "reviewDate": null
       },
@@ -17,8 +17,8 @@
       "special": {
         "score": "7,9",
         "count": "140",
-        "reviewText": null,
-        "reviewDate": "28 juli 2026"
+        "reviewText": "Geweldig 😉",
+        "reviewDate": "31 augustus 2026"
       }
     },
     "poortvanmaastricht": {
@@ -37,14 +37,14 @@
       "special": {
         "score": "8,3",
         "count": "46",
-        "reviewText": null,
-        "reviewDate": "27 juni 2026"
+        "reviewText": "wij vonden het een erg nette bungalow op een mooi park. echter zijn we ontevreden over de hoofdkussens; deze zijn erg klonterig. daarnaast hebben wij veel splinters in onze voeten gekregen van de v…",
+        "reviewDate": "6 augustus 2026"
       }
     },
     "hogekempen": {
       "booking": {
         "score": "8,5",
-        "count": "1064",
+        "count": "1065",
         "reviewText": null,
         "reviewDate": null
       },
@@ -77,8 +77,8 @@
       "special": {
         "score": "7,8",
         "count": "131",
-        "reviewText": "Een echte aanrader!!!!!!",
-        "reviewDate": "27 juli 2026"
+        "reviewText": "Het was buiten 24 graden en het huisje was al een sauna! Helaas geen airco.",
+        "reviewDate": "27 augustus 2026"
       }
     },
     "limburg": {
@@ -97,8 +97,8 @@
       "special": {
         "score": "7,8",
         "count": "379",
-        "reviewText": "Leuk park, goede ligging, kindvriendelijk. Chalet Berk 4 was netjes,douche/badkamer/huiskamer wat krap voor 4 personen.",
-        "reviewDate": "24 juli 2026"
+        "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
+        "reviewDate": "31 augustus 2026"
       }
     },
     "cadzand": {
@@ -157,8 +157,8 @@
       "special": {
         "score": "8,1",
         "count": "78",
-        "reviewText": null,
-        "reviewDate": "29 juli 2026"
+        "reviewText": "Hadden een comfort room helaas de keuken niets waarop we iets warm konden maken.verder heel tevreden.",
+        "reviewDate": "24 augustus 2026"
       }
     },
     "gulperberg": {
