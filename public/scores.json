@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-02T14:30:25.045Z",
+  "updated": "2026-09-02T18:43:50.606Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,1",
-        "count": "595",
+        "count": "596",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "688",
+        "count": "689",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
