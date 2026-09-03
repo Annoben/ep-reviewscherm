@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-02T21:50:20.891Z",
+  "updated": "2026-09-03T00:16:55.912Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "596",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,6",
+        "count": "203",
+        "reviewText": "Ideale overnachtingsplaats voor als je naar Toverland toe gaat. Het zit 20 min rijden ervandaan en je kunt er heerlijk tot rust komen in de natuurrijke omgeving. Alleen jammer dat er geen animatie…",
+        "reviewDate": "30 augustus 2026"
       },
       "special": {
         "score": "7,9",
