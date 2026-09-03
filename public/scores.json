@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T04:39:47.176Z",
+  "updated": "2026-09-03T09:51:40.685Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "591",
+        "count": "592",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "391",
+        "count": "379",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "620",
+        "count": "621",
         "reviewText": null,
         "reviewDate": null
       },
