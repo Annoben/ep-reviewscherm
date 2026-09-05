@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-04T21:29:56.533Z",
+  "updated": "2026-09-05T00:07:12.473Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,1",
-        "count": "597",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "8,0",
-        "count": "593",
+        "count": "594",
         "reviewText": null,
         "reviewDate": null
       },
