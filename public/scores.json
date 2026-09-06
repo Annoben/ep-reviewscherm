@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T21:21:45.605Z",
+  "updated": "2026-09-06T23:55:10.061Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "691",
+        "count": "690",
         "reviewText": null,
         "reviewDate": null
       },
