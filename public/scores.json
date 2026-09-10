@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-10T09:45:28.716Z",
+  "updated": "2026-09-10T14:27:14.929Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,1",
-        "count": "600",
+        "count": "602",
         "reviewText": null,
         "reviewDate": null
       },
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,2",
-        "count": "327",
+        "count": "328",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "619",
+        "count": "618",
         "reviewText": null,
         "reviewDate": null
       },
