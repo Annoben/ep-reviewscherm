@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T06:11:25.893Z",
+  "updated": "2026-09-13T11:53:52.795Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,2",
-        "count": "327",
+        "count": "328",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,5",
-        "count": "1063",
+        "count": "1061",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
