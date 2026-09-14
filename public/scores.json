@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-13T22:24:56.609Z",
+  "updated": "2026-09-14T01:05:43.989Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": "8,1",
-        "count": "606",
+        "count": "605",
         "reviewText": null,
         "reviewDate": null
       },
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,2",
-        "count": "328",
+        "count": "327",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "391",
+        "count": "379",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
@@ -123,8 +123,8 @@
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": "9,1",
-        "count": "17",
+        "score": "9,2",
+        "count": "18",
         "reviewText": null,
         "reviewDate": null
       },
