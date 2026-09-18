@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-18T11:16:38.018Z",
+  "updated": "2026-09-18T15:01:43.233Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,1",
-        "count": "606",
-        "reviewText": null,
-        "reviewDate": null
-      },
-      "zoover": {
         "score": null,
         "count": null,
         "reviewText": null,
         "reviewDate": null
+      },
+      "zoover": {
+        "score": "8,6",
+        "count": "206",
+        "reviewText": "Voor het eerst naar een park van Europarcs en dat viel niet tegen. We hadden een mooie bungalow nr.305. Bungalow was schoon, airco stond aan (was ook nodig). Bedden prima, inventaris ook, aan alles…",
+        "reviewDate": "14 september 2026"
       },
       "special": {
         "score": "7,9",
@@ -29,10 +29,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,0",
-        "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "691",
+        "count": "692",
         "reviewText": null,
         "reviewDate": null
       },
