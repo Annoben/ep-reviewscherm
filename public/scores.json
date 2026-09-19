@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T11:00:16.864Z",
+  "updated": "2026-09-19T14:26:15.677Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1065",
+        "count": "1051",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "379",
+        "count": "391",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
