@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T12:22:58.612Z",
+  "updated": "2026-09-20T16:48:25.425Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -10,9 +10,9 @@
       },
       "zoover": {
         "score": "8,6",
-        "count": "206",
-        "reviewText": "Voor het eerst naar een park van Europarcs en dat viel niet tegen. We hadden een mooie bungalow nr.305. Bungalow was schoon, airco stond aan (was ook nodig). Bedden prima, inventaris ook, aan alles…",
-        "reviewDate": "14 september 2026"
+        "count": "208",
+        "reviewText": "Wij hebben 14 dagen heerlijk kunnen ontspannen in een prachtige chalet nummer 47. Het was heerlijk weer echt mooi op het Super leuk terras om wat te drinken of eten En te genieten van de rust en bo…",
+        "reviewDate": "20 september 2026"
       },
       "special": {
         "score": "7,9",
@@ -83,8 +83,8 @@
     },
     "limburg": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,2",
+        "count": "694",
         "reviewText": null,
         "reviewDate": null
       },
@@ -123,8 +123,8 @@
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "9,2",
+        "count": "19",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "616",
+        "count": "617",
         "reviewText": null,
         "reviewDate": null
       },
