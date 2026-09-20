@@ -1,17 +1,17 @@
 {
-  "updated": "2026-09-20T16:48:25.425Z",
+  "updated": "2026-09-20T19:27:24.893Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "608",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
-        "count": "208",
-        "reviewText": "Wij hebben 14 dagen heerlijk kunnen ontspannen in een prachtige chalet nummer 47. Het was heerlijk weer echt mooi op het Super leuk terras om wat te drinken of eten En te genieten van de rust en bo…",
+        "count": "213",
+        "reviewText": "We verbleven 8 dagen in een Cosy Unique 4p. huisje (nr. 334). Fijn tegen de bosrand aan, wat beschut, waardoor we in deze warme periode goede natuurlijke verkoeling hadden. Daarnaast had het huisje…",
         "reviewDate": "20 september 2026"
       },
       "special": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1049",
+        "count": "1050",
         "reviewText": null,
         "reviewDate": null
       },
