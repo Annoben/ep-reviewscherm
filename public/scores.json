@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:07:00.850Z",
+  "updated": "2026-09-20T01:10:40.024Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -9,10 +9,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,6",
-        "count": "206",
-        "reviewText": "Voor het eerst naar een park van Europarcs en dat viel niet tegen. We hadden een mooie bungalow nr.305. Bungalow was schoon, airco stond aan (was ook nodig). Bedden prima, inventaris ook, aan alles…",
-        "reviewDate": "14 september 2026"
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,2",
-        "count": "330",
+        "count": "328",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1052",
+        "count": "1047",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "391",
+        "count": "379",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
