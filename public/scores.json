@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-21T23:17:58.352Z",
+  "updated": "2026-09-22T04:57:58.120Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "612",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1051",
+        "count": "1047",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "696",
+        "count": "695",
         "reviewText": null,
         "reviewDate": null
       },
@@ -96,7 +96,7 @@
       },
       "special": {
         "score": "7,8",
-        "count": "391",
+        "count": "379",
         "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
         "reviewDate": "31 augustus 2026"
       }
@@ -124,7 +124,7 @@
     "zeeuwseduinen": {
       "booking": {
         "score": "9,2",
-        "count": "19",
+        "count": "20",
         "reviewText": null,
         "reviewDate": null
       },
@@ -164,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "617",
+        "count": "616",
         "reviewText": null,
         "reviewDate": null
       },
