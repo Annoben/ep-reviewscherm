@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-24T04:52:17.641Z",
+  "updated": "2026-09-24T10:02:07.530Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "614",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,6",
+        "count": "213",
+        "reviewText": "We verbleven 8 dagen in een Cosy Unique 4p. huisje (nr. 334). Fijn tegen de bosrand aan, wat beschut, waardoor we in deze warme periode goede natuurlijke verkoeling hadden. Daarnaast had het huisje…",
+        "reviewDate": "20 september 2026"
       },
       "special": {
         "score": "7,9",
@@ -29,10 +29,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,0",
-        "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
