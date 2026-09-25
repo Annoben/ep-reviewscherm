@@ -1,157 +1,184 @@
 {
-  "updated": "2026-09-24T22:25:15.985Z",
+  "updated": "2026-09-25T01:31:42.201Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.$$eval: Execution context was destroyed, most likely because of a navigation"
+        "score": "8,1",
+        "count": "614",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/102231/europarcs-maasduinen\" is interrupted by another navigation to \""
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_maasduinen.html\" is interrupted by another"
+        "score": "7,9",
+        "count": "140",
+        "reviewText": "Geweldig 😉",
+        "reviewDate": "31 augustus 2026"
       }
     },
     "poortvanmaastricht": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/europarcs-poort-van-maastricht.nl.html\" is interrupted by ano"
+        "score": "8,2",
+        "count": "327",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/102551/europarcs-poort-van-maastricht\" is interrupted by another navig"
+        "score": "8,0",
+        "count": "36",
+        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
+        "reviewDate": "17 mei 2026"
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_poort_van_maastricht.html\" is interrupted "
+        "score": "8,3",
+        "count": "46",
+        "reviewText": "wij vonden het een erg nette bungalow op een mooi park. echter zijn we ontevreden over de hoofdkussens; deze zijn erg klonterig. daarnaast hebben wij veel splinters in onze voeten gekregen van de v…",
+        "reviewDate": "6 augustus 2026"
       }
     },
     "hogekempen": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/be/europarcs-hoge-kempen.nl.html\" is interrupted by another navi"
+        "score": "8,4",
+        "count": "1048",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/479779/europarcs-hoge-kempen\" is interrupted by another navigation to "
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_hoge_kempen.html\" is interrupted by anothe"
+        "score": "8,0",
+        "count": "41",
+        "reviewText": null,
+        "reviewDate": "26 juli 2026"
       }
     },
     "kraaijenbergseplassen": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/europarcs-de-kraaijenbergse-plassen.nl.html\" is interrupted b"
+        "score": "7,9",
+        "count": "597",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/479659/europarcs-de-kraaijenbergse-plassen\" is interrupted by another "
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_de_kraaijenbergse_plassen.html\" is interru"
+        "score": "7,8",
+        "count": "131",
+        "reviewText": "Het was buiten 24 graden en het huisje was al een sauna! Helaas geen airco.",
+        "reviewDate": "27 augustus 2026"
       }
     },
     "limburg": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/europarcs-limburg.nl.html\" is interrupted by another navigati"
+        "score": "8,2",
+        "count": "694",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/102482/europarcs-limburg\" is interrupted by another navigation to \"htt"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_limburg.html\" is interrupted by another na"
+        "score": "7,8",
+        "count": "379",
+        "reviewText": "Had een nare ervaring met rioollucht in de bungalow.",
+        "reviewDate": "31 augustus 2026"
       }
     },
     "cadzand": {
       "booking": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/europarcs-cadzand-bad.nl.html\" is interrupted by another navi"
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/121028/europarcs-cadzand-bad\" is interrupted by another navigation to "
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_cadzand_.html\" is interrupted by another n"
+        "score": "8,2",
+        "count": "4",
+        "reviewText": "De wallbox werkte niet. De afvoer in de douche zat helemaal verstopt met haren. ’s Ochtends waren er geen broodjes. De bedden zijn erg slecht. Verder zijn het erg mooie bungalows.",
+        "reviewDate": "17 juli 2026"
       }
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/europarcs-de-zeeuwse-duinen.nl.html\" is interrupted by anothe"
+        "score": "9,2",
+        "count": "21",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/387923/europarcs-de-zeeuwse-duinen\" is interrupted by another navigati"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_de_zeeuwse_duinen.html\" is interrupted by "
+        "score": "9,0",
+        "count": "2",
+        "reviewText": "Het huis is precies zoals beschreven op de website. Alles wat je nodig hebt is aanwezig. Een zeer schoon en goed onderhouden complex. Ondanks het hoogseizoen erg rustig. Het enige punt van kritiek…",
+        "reviewDate": "7 juli 2026"
       }
     },
     "schoneveld": {
       "booking": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/europarcs-schoneveld.nl.html\" is interrupted by another navig"
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/103901/europarcs-schoneveld\" is interrupted by another navigation to \""
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_schoneveld.html\" is interrupted by another"
+        "score": "8,1",
+        "count": "78",
+        "reviewText": "Hadden een comfort room helaas de keuken niets waarop we iets warm konden maken.verder heel tevreden.",
+        "reviewDate": "24 augustus 2026"
       }
     },
     "gulperberg": {
       "booking": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.booking.com/hotel/nl/camping-gulperberg.html\" is interrupted by another navigation"
+        "score": "8,3",
+        "count": "610",
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
         "score": null,
         "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/102290/europarcs-gulperberg\" is interrupted by another navigation to \""
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.bungalowspecials.nl/bungalows/europarcs_gulperberg.html\" is interrupted by another"
+        "score": "8,0",
+        "count": "94",
+        "reviewText": null,
+        "reviewDate": "25 juli 2026"
       }
     }
   }
