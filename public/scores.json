@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-01T05:55:39.792Z",
+  "updated": "2026-10-01T13:18:01.512Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "618",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "7,9",
-        "count": "598",
+        "count": "599",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "697",
+        "count": "698",
         "reviewText": null,
         "reviewDate": null
       },
