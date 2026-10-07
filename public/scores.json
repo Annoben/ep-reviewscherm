@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-07T01:33:01.813Z",
+  "updated": "2026-10-07T08:40:23.795Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,1",
+        "count": "623",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,6",
-        "count": "214",
-        "reviewText": "4 nachten verbleven op Europarc Maasduinen. Mooi verzorgd huisje voor 4 personen, dat van alle gemakken was voorzien. Op het park was het lekker rustig. Genoeg te doen in de omgeving b.v. Venlo en…",
-        "reviewDate": "5 oktober 2026"
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
@@ -29,10 +29,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "reviewText": null,
-        "reviewDate": null
+        "score": "8,0",
+        "count": "36",
+        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
+        "reviewDate": "17 mei 2026"
       },
       "special": {
         "score": "8,3",
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1050",
+        "count": "1051",
         "reviewText": null,
         "reviewDate": null
       },
@@ -123,8 +123,8 @@
     },
     "zeeuwseduinen": {
       "booking": {
-        "score": "9,2",
-        "count": "25",
+        "score": "9,3",
+        "count": "26",
         "reviewText": null,
         "reviewDate": null
       },
