@@ -1,21 +1,24 @@
 {
-  "updated": "2026-10-08T16:32:10.984Z",
+  "updated": "2026-10-08T22:05:08.705Z",
   "parks": {
     "maasduinen": {
       "booking": {
         "score": null,
         "count": null,
-        "error": "page.$$eval: Execution context was destroyed, most likely because of a navigation"
+        "reviewText": null,
+        "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Navigation to \"https://www.zoover.nl/a/102231/europarcs-maasduinen\" is interrupted by another navigation to \""
+        "score": "8,6",
+        "count": "214",
+        "reviewText": "4 nachten verbleven op Europarc Maasduinen. Mooi verzorgd huisje voor 4 personen, dat van alle gemakken was voorzien. Op het park was het lekker rustig. Genoeg te doen in de omgeving b.v. Venlo en…",
+        "reviewDate": "5 oktober 2026"
       },
       "special": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.bungalowspecials.nl/bungalows/europarcs_ma"
+        "score": "7,9",
+        "count": "140",
+        "reviewText": "Het enigste wat er ontbreek is een schuurtje.",
+        "reviewDate": "13 september 2026"
       }
     },
     "poortvanmaastricht": {
@@ -26,10 +29,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,0",
-        "count": "36",
-        "reviewText": "Mooie omgeving tussen Maastricht en Valkenburg!! Toiletgebouw 3, was het afwaswater slechts lauw water, dus zelf water gekookt voor een warm sopje. Tijdens ons verblijf waren alle dames douches in…",
-        "reviewDate": "17 mei 2026"
+        "score": null,
+        "count": null,
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,3",
@@ -61,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "7,9",
-        "count": "595",
+        "count": "596",
         "reviewText": null,
         "reviewDate": null
       },
@@ -80,8 +83,8 @@
     },
     "limburg": {
       "booking": {
-        "score": "8,3",
-        "count": "703",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
