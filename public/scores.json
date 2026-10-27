@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-27T10:35:19.480Z",
+  "updated": "2026-10-27T16:40:04.685Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,1",
-        "count": "638",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,1",
-        "count": "338",
+        "count": "339",
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1050",
+        "count": "1048",
         "reviewText": null,
         "reviewDate": null
       },
