@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-30T01:00:13.550Z",
+  "updated": "2026-10-30T07:07:31.301Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,1",
-        "count": "639",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "7,0",
         "count": "15",
-        "reviewText": "In augustus 2026 dit park bezocht, met een baby van 9 maanden. Voor ons was dit de ideale uitvalbasis naar diverse plekken: Sluis, Oostburg, Knokke, Breskens etc. Bakfiets gehuurd waar de maxi-cosi…",
-        "reviewDate": "3 september 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,8",
@@ -171,8 +171,8 @@
       "zoover": {
         "score": "7,4",
         "count": "57",
-        "reviewText": "T.o.v. 2025 zagen wij wat achteruitgang. Douches niet heel schoon. Openingstijden aangepast. Zwembad 18:00 dicht terwijl het dan erg warm was. (Nieuwe regelgeving openlucht baden🤔) Restaurant 20:0…",
-        "reviewDate": "13 augustus 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "8,0",
