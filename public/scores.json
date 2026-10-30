@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T07:07:31.301Z",
+  "updated": "2026-10-30T14:09:46.890Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1049",
+        "count": "1047",
         "reviewText": null,
         "reviewDate": null
       },
@@ -69,10 +69,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,7",
-        "count": "23",
-        "reviewText": "Grote villa met alle gemakken. Veel ruimte, ook er omheen. Vlakbij het water. We hadden 4 sups mee, heerlijk gezwommen in schoon helder water. Bootje gehuurd. Prima vertoeven!",
-        "reviewDate": "17 augustus 2026"
+        "score": "8,5",
+        "count": "24",
+        "reviewText": "Het was een prettig vakantiepark. Het huisje is lekker ruim. Het enige jammere is dat het alleen omrijden is om naar de snelweg te gaan.",
+        "reviewDate": "30 oktober 2026"
       },
       "special": {
         "score": "7,8",
@@ -111,8 +111,8 @@
       "zoover": {
         "score": "7,0",
         "count": "15",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "In augustus 2026 dit park bezocht, met een baby van 9 maanden. Voor ons was dit de ideale uitvalbasis naar diverse plekken: Sluis, Oostburg, Knokke, Breskens etc. Bakfiets gehuurd waar de maxi-cosi…",
+        "reviewDate": "3 september 2026"
       },
       "special": {
         "score": "7,8",
@@ -164,15 +164,15 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "600",
+        "count": "599",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "7,4",
         "count": "57",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "T.o.v. 2025 zagen wij wat achteruitgang. Douches niet heel schoon. Openingstijden aangepast. Zwembad 18:00 dicht terwijl het dan erg warm was. (Nieuwe regelgeving openlucht baden🤔) Restaurant 20:0…",
+        "reviewDate": "13 augustus 2026"
       },
       "special": {
         "score": "8,0",
