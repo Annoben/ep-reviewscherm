@@ -1,24 +1,24 @@
 {
-  "updated": "2026-11-03T06:48:38.648Z",
+  "updated": "2026-11-03T15:08:34.553Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
-        "count": null,
+        "score": "8,0",
+        "count": "639",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "214",
-        "reviewText": "4 nachten verbleven op Europarc Maasduinen. Mooi verzorgd huisje voor 4 personen, dat van alle gemakken was voorzien. Op het park was het lekker rustig. Genoeg te doen in de omgeving b.v. Venlo en…",
-        "reviewDate": "5 oktober 2026"
+        "reviewText": null,
+        "reviewDate": null
       },
       "special": {
         "score": "7,9",
         "count": "140",
-        "reviewText": "Het enigste wat er ontbreek is een schuurtje.",
-        "reviewDate": "13 september 2026"
+        "reviewText": "super mooi park ga er zeker nog terug",
+        "reviewDate": "13 oktober 2026"
       }
     },
     "poortvanmaastricht": {
@@ -157,14 +157,14 @@
       "special": {
         "score": "8,1",
         "count": "78",
-        "reviewText": "Zeer ruim en gezellig ingericht chalet met afgezette tuin, wat ideaal is als je met een hond op vakantie bent. Slechts 5 minuten lopen naar het strand. Personeel zeer vriendelijk en behulpzaam. Voo…",
-        "reviewDate": "29 september 2026"
+        "reviewText": "Veel achterstallig werk. Huisje was schoon maar duidelijk alles kaal, versleten. Ook zat er niet de buitenhaard op zoals op de foto. Bij binnenkomst stonk het huisje heel erg dus eerst een uurtje g…",
+        "reviewDate": "22 oktober 2026"
       }
     },
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "599",
+        "count": "598",
         "reviewText": null,
         "reviewDate": null
       },
