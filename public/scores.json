@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T23:30:54.625Z",
+  "updated": "2026-11-03T06:48:38.648Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1043",
+        "count": "1041",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "7,9",
-        "count": "594",
+        "count": "593",
         "reviewText": null,
         "reviewDate": null
       },
@@ -77,8 +77,8 @@
       "special": {
         "score": "7,8",
         "count": "131",
-        "reviewText": "Bij aankomst werd ons verteld dat het huisje niet aan het water stond maar gewoon midden op het park. Huisje had zeer weinig ventilatie mogelijkheden, alleen een schuifpui. De wc had nog gebruiks s…",
-        "reviewDate": "12 september 2026"
+        "reviewText": "Prima park in een prachtige omgeving, alleen wel vlakbij de A73 gelegen. Bungalow was prima ingericht, maar schoonmaak kan beter.",
+        "reviewDate": "10 oktober 2026"
       }
     },
     "limburg": {
@@ -177,8 +177,8 @@
       "special": {
         "score": "8,0",
         "count": "94",
-        "reviewText": "zeer mooie , hoge ligging met mooie uitzichten. Zeer vriendelijke behulpzame medewerkers",
-        "reviewDate": "21 september 2026"
+        "reviewText": "Geweldig park",
+        "reviewDate": "3 oktober 2026"
       }
     }
   }
