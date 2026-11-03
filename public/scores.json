@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-03T15:08:34.553Z",
+  "updated": "2026-11-03T20:59:50.724Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,0",
-        "count": "639",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,6",
         "count": "214",
-        "reviewText": null,
-        "reviewDate": null
+        "reviewText": "4 nachten verbleven op Europarc Maasduinen. Mooi verzorgd huisje voor 4 personen, dat van alle gemakken was voorzien. Op het park was het lekker rustig. Genoeg te doen in de omgeving b.v. Venlo en…",
+        "reviewDate": "5 oktober 2026"
       },
       "special": {
         "score": "7,9",
