@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-05T06:47:29.943Z",
+  "updated": "2026-11-05T15:28:32.613Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": "8,0",
-        "count": "639",
+        "score": null,
+        "count": null,
         "reviewText": null,
         "reviewDate": null
       },
@@ -44,15 +44,15 @@
     "hogekempen": {
       "booking": {
         "score": "8,4",
-        "count": "1037",
+        "count": "1038",
         "reviewText": null,
         "reviewDate": null
       },
       "zoover": {
         "score": "8,8",
-        "count": "146",
-        "reviewText": "Wij hebben deze zomer voor de eerste maal tijdens een korte vakantie verbleven bij Europarcs &apos;de Hoge Kempen&apos;. Wij kozen voor een Lakeside Cottage en zouden deze zo opnieuw verkiezen. Pra…",
-        "reviewDate": "31 augustus 2026"
+        "count": "147",
+        "reviewText": "Rustige midweek gehad in de Wellness woning. Fijne woning, genoeg te doen in de omgeving en een prachtig park.",
+        "reviewDate": "5 november 2026"
       },
       "special": {
         "score": "8,0",
@@ -129,9 +129,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": null,
-        "count": null,
-        "error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.zoover.nl/a/387923/europarcs-de-zeeuwse-du"
+        "score": "9,0",
+        "count": "2",
+        "reviewText": "Meer dan fijne vakantiebestemming. Rustig en kleinschalig park met een persoonlijke benadering. Uitstekende accommodaties, goed onderhouden park en direct naast het strand en op korte afstand van d…",
+        "reviewDate": "18 augustus 2026"
       },
       "special": {
         "score": "9,0",
@@ -163,7 +164,7 @@
     "gulperberg": {
       "booking": {
         "score": "8,3",
-        "count": "598",
+        "count": "599",
         "reviewText": null,
         "reviewDate": null
       },
