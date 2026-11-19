@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-19T03:29:03.569Z",
+  "updated": "2026-11-19T13:10:15.549Z",
   "parks": {
     "maasduinen": {
       "booking": {
-        "score": null,
+        "score": "8,0",
         "count": "643",
         "reviewText": null,
         "reviewDate": null
@@ -24,7 +24,7 @@
     "poortvanmaastricht": {
       "booking": {
         "score": "8,1",
-        "count": "339",
+        "count": "340",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "7,9",
-        "count": "587",
+        "count": "588",
         "reviewText": null,
         "reviewDate": null
       },
@@ -84,7 +84,7 @@
     "limburg": {
       "booking": {
         "score": "8,2",
-        "count": "694",
+        "count": "695",
         "reviewText": null,
         "reviewDate": null
       },
@@ -124,7 +124,7 @@
     "zeeuwseduinen": {
       "booking": {
         "score": "9,0",
-        "count": "42",
+        "count": "43",
         "reviewText": null,
         "reviewDate": null
       },
