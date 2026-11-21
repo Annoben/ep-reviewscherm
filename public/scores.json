@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T02:15:54.366Z",
+  "updated": "2026-11-21T09:55:30.937Z",
   "parks": {
     "maasduinen": {
       "booking": {
@@ -44,7 +44,7 @@
     "hogekempen": {
       "booking": {
         "score": "8,3",
-        "count": "1034",
+        "count": "1031",
         "reviewText": null,
         "reviewDate": null
       },
@@ -64,7 +64,7 @@
     "kraaijenbergseplassen": {
       "booking": {
         "score": "7,9",
-        "count": "588",
+        "count": "587",
         "reviewText": null,
         "reviewDate": null
       },
@@ -109,10 +109,10 @@
         "reviewDate": null
       },
       "zoover": {
-        "score": "8,3",
-        "count": "18",
-        "reviewText": "Aanrader, dicht bij de boulevard en alle woningen hebben een laadpaal, echt handig",
-        "reviewDate": "20 november 2026"
+        "score": "8,4",
+        "count": "19",
+        "reviewText": "Geweldige locatie. Alles op loopafstand. Top restaurants. Op de fiets naar Knokke.",
+        "reviewDate": "21 november 2026"
       },
       "special": {
         "score": "7,8",
